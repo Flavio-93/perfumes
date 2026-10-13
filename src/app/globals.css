@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-gold: #C5A059; /* Un dorado más elegante y acorde al logo */
+  --color-brand-sapphire: #0F52BA; /* El azul joya del logo */
+  --color-brand-dark: #FAF8F5; /* Fondo crema/mármol claro (antes era negro) */
+  --color-brand-surface: #FFFFFF; /* Superficies blancas (antes era gris oscuro) */
+  --color-brand-light: #2C2C2C; /* Texto oscuro (antes era texto blanco) */
+  --font-heading: var(--font-playfair), serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-brand-dark);
+    color: var(--color-brand-light);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  /* Glassmorphism sutil para tarjetas y navbar */
+  .glass {
+    background-color: color-mix(in srgb, var(--color-brand-surface) 70%, transparent);
+    backdrop-filter: blur(12px);
+    border: 1px solid color-mix(in srgb, var(--color-brand-gold) 10%, transparent);
+  }
+
+  /* Microanimaciones para tarjetas */
+  .hover-lift {
+    transition: all 300ms ease-out;
+  }
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.1);
+    border-color: color-mix(in srgb, var(--color-brand-gold) 30%, transparent);
+  }
+
+  /* Botón CTA Dorado Premium */
+  .btn-gold {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-brand-gold);
+    color: var(--color-brand-dark);
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    transition: all 300ms;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.875rem;
+  }
+  .btn-gold:hover {
+    background-color: #FBBF24;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+  }
+  .btn-gold:active {
+    transform: scale(0.95);
+  }
+}
+
+/* Animación especial para el botón de WhatsApp flotante */
+@keyframes pulse-gold {
+  0% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7); }
+  70% { box-shadow: 0 0 0 15px rgba(212, 175, 55, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); }
+}
+
+.animate-pulse-gold {
+  animation: pulse-gold 2s infinite;
+}
