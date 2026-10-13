@@ -42,18 +42,41 @@ interface CartContextType {
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
+import { perfumes } from "@/data/perfumes";
+
+// Helper to safely extract numeric price from strings like "S/. 105.00"
+function parseItemPrice(priceVal?: number | string): number {
+  if (typeof priceVal === "number") return priceVal;
+  if (!priceVal) return 120.0;
+  const match = String(priceVal).match(/\d+(?:\.\d+)?/);
+  return match ? parseFloat(match[0]) : 120.0;
+}
+
 export function CartProvider({ children }: { children: ReactNode }) {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isInitialized, setIsInitialized] = useState(false);
 
-  // Load from localStorage on mount
+  // Load from localStorage on mount and sanitize any previously corrupted prices
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {
         const saved = localStorage.getItem("isf_cart");
         if (saved) {
-          setCart(JSON.parse(saved));
+          const parsed: CartItem[] = JSON.parse(saved);
+          const sanitized = parsed.map((item) => {
+            if (item.size === "frasco") {
+              const matchedPerfume = perfumes.find((p) => p.id === item.baseId);
+              const realPrice = matchedPerfume ? parseItemPrice(matchedPerfume.price) : (item.price > 1 ? item.price : 120.0);
+              return { ...item, price: realPrice };
+            } else if (item.size === "3ml") {
+              return { ...item, price: 15.0 };
+            } else if (item.size === "5ml") {
+              return { ...item, price: 22.0 };
+            }
+            return item;
+          });
+          setCart(sanitized);
         }
       } catch (e) {
         console.error("Error reading cart from localStorage", e);
@@ -85,16 +108,17 @@ export function CartProvider({ children }: { children: ReactNode }) {
       if (typeof item.price === "number") {
         itemPrice = item.price;
       } else if (typeof item.price === "string") {
-        itemPrice = parseFloat(item.price.replace(/[^0-9.]/g, "")) || 120.0;
+        itemPrice = parseItemPrice(item.price);
       } else {
-        itemPrice = 120.0;
+        const matched = perfumes.find((p) => p.id === item.id);
+        itemPrice = matched ? parseItemPrice(matched.price) : 120.0;
       }
     }
 
     setCart((prev) => {
       const existing = prev.find((i) => i.id === compositeId);
       if (existing) {
-        return prev.map((i) => (i.id === compositeId ? { ...i, quantity: i.quantity + 1 } : i));
+        return prev.map((i) => (i.id === compositeId ? { ...i, quantity: i.quantity + 1, price: itemPrice } : i));
       } else {
         return [
           ...prev,
