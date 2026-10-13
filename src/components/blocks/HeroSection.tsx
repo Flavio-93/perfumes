@@ -9,7 +9,7 @@ const slides = [
     title: "OTOÑO",
     buttonText: "VER TODOS LOS PERFUMES",
     image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=2000&auto=format&fit=crop",
-    link: "#servicios"
+    link: "#catalogo"
   },
   {
     id: 2,
@@ -41,7 +41,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] mt-[80px] overflow-hidden bg-brand-dark">
+    <section className="relative h-[46vh] min-h-[320px] sm:h-[80vh] sm:min-h-[580px] mt-[68px] sm:mt-[80px] overflow-hidden bg-brand-dark">
       {/* Contenedor de los slides */}
       {slides.map((slide, index) => (
         <div 
@@ -60,22 +60,22 @@ export default function HeroSection() {
           ></div>
           
           {/* Overlay oscuro para legibilidad (gradiente lateral y fondo) */}
-          <div className="absolute inset-0 bg-black/40 bg-gradient-to-r from-black/70 via-black/40 to-transparent"></div>
+          <div className="absolute inset-0 bg-black/40 bg-gradient-to-r from-black/75 via-black/45 to-transparent"></div>
           
-          {/* Contenido del texto (alineado a la izquierda para parecerse al diseño original) */}
+          {/* Contenido del texto */}
           <div className="container mx-auto px-4 md:px-12 relative h-full flex flex-col justify-center items-start w-full">
             <div className={`max-w-2xl transform transition-all duration-1000 delay-300 ${index === currentSlide ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"}`}>
-              <h2 className="text-brand-light/90 uppercase tracking-[0.2em] md:tracking-[0.3em] text-xs md:text-sm font-bold mb-4 ml-1">
+              <h2 className="text-brand-light/90 uppercase tracking-[0.15em] sm:tracking-[0.2em] md:tracking-[0.3em] text-[10px] sm:text-xs md:text-sm font-bold mb-1.5 sm:mb-4 ml-0.5 sm:ml-1">
                 {slide.subtitle}
               </h2>
               
-              <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold text-brand-light mb-8 leading-none tracking-tight">
+              <h1 className="font-heading text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-brand-light mb-3.5 sm:mb-8 leading-none tracking-tight">
                 {slide.title}
               </h1>
               
               <a 
                 href={slide.link}
-                className="inline-block bg-[#C48B57] hover:bg-[#A67548] text-white font-bold px-8 md:px-10 py-4 uppercase tracking-[0.15em] text-xs md:text-sm transition-colors"
+                className="inline-block bg-[#C48B57] hover:bg-[#A67548] text-white font-bold px-5 sm:px-8 md:px-10 py-2.5 sm:py-4 uppercase tracking-[0.15em] text-[10px] sm:text-xs md:text-sm transition-colors rounded-sm"
                 target={slide.link.startsWith('http') ? "_blank" : "_self"}
                 rel={slide.link.startsWith('http') ? "noopener noreferrer" : ""}
               >
@@ -87,14 +87,14 @@ export default function HeroSection() {
       ))}
 
       {/* Indicadores del Slider (Puntos) */}
-      <div className="absolute bottom-8 right-8 z-20 flex gap-3">
+      <div className="absolute bottom-4 right-4 sm:bottom-8 sm:right-8 z-20 flex gap-2 sm:gap-3">
         {slides.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+            className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-all duration-300 cursor-pointer ${
               index === currentSlide 
-                ? "bg-white w-8" 
+                ? "bg-white w-6 sm:w-8" 
                 : "bg-white/40 hover:bg-white/70"
             }`}
             aria-label={`Ir a la diapositiva ${index + 1}`}
