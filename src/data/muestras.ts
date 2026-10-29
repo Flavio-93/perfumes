@@ -22,13 +22,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 105.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_9am_afnan_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_9am_afnan_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_9am_afnan_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_9am_afnan_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_9am_afnan_eau_de_parfum_para_mujer_3.webp",
-      "/fragarabic_images/muestra_de_9am_afnan_eau_de_parfum_para_mujer_4.webp",
-      "/fragarabic_images/muestra_de_9am_afnan_eau_de_parfum_para_mujer_5.webp"
+      "/fotos_perfumes/muestra_de_9am_afnan_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_9am_afnan_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_9am_afnan_eau_de_parfum_para_mujer_3.webp",
+      "/fotos_perfumes/muestra_de_9am_afnan_eau_de_parfum_para_mujer_4.webp",
+      "/fotos_perfumes/muestra_de_9am_afnan_eau_de_parfum_para_mujer_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -42,13 +42,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_3.webp",
-      "/fragarabic_images/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_4.webp",
-      "/fragarabic_images/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_5.webp"
+      "/fotos_perfumes/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_4.webp",
+      "/fotos_perfumes/muestra_de_9pm_afnan_eau_de_parfum_para_hombre_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -62,13 +62,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 115.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_3.webp",
-      "/fragarabic_images/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_4.webp",
-      "/fragarabic_images/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_5.webp"
+      "/fotos_perfumes/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_3.webp",
+      "/fotos_perfumes/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_4.webp",
+      "/fotos_perfumes/muestra_de_yara_rosa_lattafa_eau_de_parfum_para_mujer_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -82,13 +82,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 185.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_1.webp",
+    "image": "/fotos_perfumes/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_1.webp",
-      "/fragarabic_images/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_2.webp",
-      "/fragarabic_images/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_3.webp",
-      "/fragarabic_images/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_4.webp",
-      "/fragarabic_images/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_5.webp"
+      "/fotos_perfumes/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_3.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_4.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -102,13 +102,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_yum_yum_armaf_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_yum_yum_armaf_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_yum_yum_armaf_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_yum_yum_armaf_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_yum_yum_armaf_eau_de_parfum_3.webp",
-      "/fragarabic_images/muestra_de_yum_yum_armaf_eau_de_parfum_4.webp",
-      "/fragarabic_images/muestra_de_yum_yum_armaf_eau_de_parfum_5.webp"
+      "/fotos_perfumes/muestra_de_yum_yum_armaf_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_yum_yum_armaf_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_yum_yum_armaf_eau_de_parfum_3.webp",
+      "/fotos_perfumes/muestra_de_yum_yum_armaf_eau_de_parfum_4.webp",
+      "/fotos_perfumes/muestra_de_yum_yum_armaf_eau_de_parfum_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -122,11 +122,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 130.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
-      "/fragarabic_images/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_2.webp",
-      "/fragarabic_images/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -140,13 +140,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_1.webp",
+    "image": "/fotos_perfumes/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_1.webp",
-      "/fragarabic_images/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_2.webp",
-      "/fragarabic_images/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_3.webp",
-      "/fragarabic_images/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_4.webp",
-      "/fragarabic_images/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_5.webp"
+      "/fotos_perfumes/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_3.webp",
+      "/fotos_perfumes/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_4.webp",
+      "/fotos_perfumes/muestra_de_khamrah_qahwa_lattafa_eau_de_parfum_unisex_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -160,13 +160,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 130.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_3.webp",
-      "/fragarabic_images/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_4.webp",
-      "/fragarabic_images/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_5.webp"
+      "/fotos_perfumes/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_3.webp",
+      "/fotos_perfumes/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_4.webp",
+      "/fotos_perfumes/muestra_de_opulent_red_lattafa_eau_de_parfum_para_mujer_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -180,10 +180,10 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 90.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/nautica_voyage_1.jpg",
+    "image": "/fotos_perfumes/nautica_voyage_1.jpg",
     "gallery": [
-      "/fragarabic_images/nautica_voyage_1.jpg",
-      "/fragarabic_images/nautica_voyage_2.jpg"
+      "/fotos_perfumes/nautica_voyage_1.jpg",
+      "/fotos_perfumes/nautica_voyage_2.jpg"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -197,12 +197,12 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 135.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
-      "/fragarabic_images/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_2.webp",
-      "/fragarabic_images/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_3.webp",
-      "/fragarabic_images/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_4.webp"
+      "/fotos_perfumes/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_3.webp",
+      "/fotos_perfumes/muestra_de_asad_elixir_lattafa_eau_de_parfum_para_hombre_3ml_4.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -216,13 +216,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_3.webp",
-      "/fragarabic_images/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_4.webp",
-      "/fragarabic_images/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_5.webp"
+      "/fotos_perfumes/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_3.webp",
+      "/fotos_perfumes/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_4.webp",
+      "/fotos_perfumes/muestra_de_eclaire_lattafa_eau_de_parfum_para_mujer_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -236,11 +236,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 155.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_1.webp",
-      "/fragarabic_images/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_2.webp",
-      "/fragarabic_images/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_vulcan_feu_french_avenue_eau_de_parfum_unisex_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -254,11 +254,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 155.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_1.webp",
-      "/fragarabic_images/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_2.webp",
-      "/fragarabic_images/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -272,11 +272,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 155.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
-      "/fragarabic_images/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_2.webp",
-      "/fragarabic_images/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -290,13 +290,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_1.webp",
+    "image": "/fotos_perfumes/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_1.webp",
-      "/fragarabic_images/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_2.webp",
-      "/fragarabic_images/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_3.webp",
-      "/fragarabic_images/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_4.webp",
-      "/fragarabic_images/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_5.webp"
+      "/fotos_perfumes/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_3.webp",
+      "/fotos_perfumes/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_4.webp",
+      "/fotos_perfumes/muestra_de_khamrah_lattafa_eau_de_parfum_unisex_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -310,12 +310,12 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
-      "/fragarabic_images/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_2.webp",
-      "/fragarabic_images/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_3.webp",
-      "/fragarabic_images/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_4.webp"
+      "/fotos_perfumes/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_3.webp",
+      "/fotos_perfumes/muestra_de_atheeri_lattafa_eau_de_parfum_para_mujer_3ml_4.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -329,12 +329,12 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_1.webp",
+    "image": "/fotos_perfumes/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_1.webp",
-      "/fragarabic_images/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_2.webp",
-      "/fragarabic_images/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_3.webp",
-      "/fragarabic_images/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_4.webp"
+      "/fotos_perfumes/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_3.webp",
+      "/fotos_perfumes/muestra_de_roman_leather_maison_alhambra_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -348,11 +348,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 130.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_1.webp",
-      "/fragarabic_images/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_2.webp",
-      "/fragarabic_images/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -366,11 +366,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 130.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
-      "/fragarabic_images/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_2.webp",
-      "/fragarabic_images/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_yara_elixir_lattafa_eau_de_parfum_para_mujer_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -384,11 +384,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 135.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_1.webp",
-      "/fragarabic_images/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_2.webp",
-      "/fragarabic_images/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_eclaire_banoffi_lattafa_eau_de_parfum_unisex_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -402,11 +402,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_1.webp",
-      "/fragarabic_images/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_2.webp",
-      "/fragarabic_images/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_island_bliss_armaf_eau_de_parfum_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -420,13 +420,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_desert_breeze_armaf_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_desert_breeze_armaf_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_desert_breeze_armaf_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_desert_breeze_armaf_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_desert_breeze_armaf_eau_de_parfum_3.webp",
-      "/fragarabic_images/muestra_de_desert_breeze_armaf_eau_de_parfum_4.webp",
-      "/fragarabic_images/muestra_de_desert_breeze_armaf_eau_de_parfum_5.webp"
+      "/fotos_perfumes/muestra_de_desert_breeze_armaf_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_desert_breeze_armaf_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_desert_breeze_armaf_eau_de_parfum_3.webp",
+      "/fotos_perfumes/muestra_de_desert_breeze_armaf_eau_de_parfum_4.webp",
+      "/fotos_perfumes/muestra_de_desert_breeze_armaf_eau_de_parfum_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -440,12 +440,12 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 180.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_1.webp",
-      "/fragarabic_images/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_2.webp",
-      "/fragarabic_images/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_3.webp",
-      "/fragarabic_images/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_4.webp"
+      "/fotos_perfumes/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_3.webp",
+      "/fotos_perfumes/muestra_de_art_of_universe_lattafa_eau_de_parfum_unisex_3ml_4.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -459,11 +459,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_1.webp",
-      "/fragarabic_images/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_2.webp",
-      "/fragarabic_images/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_nebras_lattafa_eau_de_parfum_unisex_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -477,13 +477,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 155.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_hawas_diva_rasasi_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_hawas_diva_rasasi_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_hawas_diva_rasasi_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_hawas_diva_rasasi_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_hawas_diva_rasasi_eau_de_parfum_3.webp",
-      "/fragarabic_images/muestra_de_hawas_diva_rasasi_eau_de_parfum_4.webp",
-      "/fragarabic_images/muestra_de_hawas_diva_rasasi_eau_de_parfum_5.webp"
+      "/fotos_perfumes/muestra_de_hawas_diva_rasasi_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_hawas_diva_rasasi_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_hawas_diva_rasasi_eau_de_parfum_3.webp",
+      "/fotos_perfumes/muestra_de_hawas_diva_rasasi_eau_de_parfum_4.webp",
+      "/fotos_perfumes/muestra_de_hawas_diva_rasasi_eau_de_parfum_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -497,13 +497,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_3.webp",
-      "/fragarabic_images/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_4.webp",
-      "/fragarabic_images/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_5.webp"
+      "/fotos_perfumes/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_4.webp",
+      "/fotos_perfumes/muestra_de_asad_bourbon_lattafa_eau_de_parfum_para_hombre_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -517,11 +517,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_3.webp"
+      "/fotos_perfumes/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_maleka_armaf_eau_de_parfum_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -535,11 +535,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 155.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_3.webp"
+      "/fotos_perfumes/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -553,11 +553,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 155.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
-      "/fragarabic_images/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_2.webp",
-      "/fragarabic_images/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -571,13 +571,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_3.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_4.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_5.webp"
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_3.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_4.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -591,13 +591,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_3.webp",
-      "/fragarabic_images/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_4.webp",
-      "/fragarabic_images/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_5.webp"
+      "/fotos_perfumes/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_3.webp",
+      "/fotos_perfumes/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_4.webp",
+      "/fotos_perfumes/muestra_de_odyssey_go_mango_armaf_eau_de_parfum_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -611,13 +611,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_1.webp",
-      "/fragarabic_images/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_2.webp",
-      "/fragarabic_images/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_3.webp",
-      "/fragarabic_images/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_4.webp",
-      "/fragarabic_images/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_5.webp"
+      "/fotos_perfumes/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_3.webp",
+      "/fotos_perfumes/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_4.webp",
+      "/fotos_perfumes/muestra_de_liquid_brun_french_avenue_eau_de_parfum_para_hombre_3ml_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
@@ -631,11 +631,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 170.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_3.webp"
+      "/fotos_perfumes/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_veneno_bianco_french_avenue_eau_de_parfum_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -649,11 +649,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 145.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_3.webp"
+      "/fotos_perfumes/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_her_confession_lattafa_eau_de_parfum_para_mujer_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -667,13 +667,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_3.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_4.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_5.webp"
+      "/fotos_perfumes/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_3.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_4.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -687,13 +687,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 190.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_1.webp",
-      "/fragarabic_images/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_2.webp",
-      "/fragarabic_images/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_3.webp",
-      "/fragarabic_images/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_4.webp",
-      "/fragarabic_images/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_5.webp"
+      "/fotos_perfumes/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_3.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_4.webp",
+      "/fotos_perfumes/muestra_de_amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_3ml_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -707,11 +707,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 115.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_3.webp"
+      "/fotos_perfumes/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_odyssey_candee_armaf_eau_de_parfum_para_mujer_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -725,13 +725,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 155.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_hawas_malibu_rasasi_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_hawas_malibu_rasasi_eau_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_hawas_malibu_rasasi_eau_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_hawas_malibu_rasasi_eau_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_hawas_malibu_rasasi_eau_de_parfum_3.webp",
-      "/fragarabic_images/muestra_de_hawas_malibu_rasasi_eau_de_parfum_4.webp",
-      "/fragarabic_images/muestra_de_hawas_malibu_rasasi_eau_de_parfum_5.webp"
+      "/fotos_perfumes/muestra_de_hawas_malibu_rasasi_eau_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_hawas_malibu_rasasi_eau_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_hawas_malibu_rasasi_eau_de_parfum_3.webp",
+      "/fotos_perfumes/muestra_de_hawas_malibu_rasasi_eau_de_parfum_4.webp",
+      "/fotos_perfumes/muestra_de_hawas_malibu_rasasi_eau_de_parfum_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -745,11 +745,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_1.webp",
+    "image": "/fotos_perfumes/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_1.webp",
-      "/fragarabic_images/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_2.webp",
-      "/fragarabic_images/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_3.webp"
+      "/fotos_perfumes/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/muestra_de_badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -763,11 +763,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 95.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_3.webp"
+      "/fotos_perfumes/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -781,11 +781,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 115.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
+    "image": "/fotos_perfumes/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
-      "/fragarabic_images/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_2.webp",
-      "/fragarabic_images/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_3.webp"
+      "/fotos_perfumes/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_2.webp",
+      "/fotos_perfumes/muestra_de_the_kingdom_lattafa_eau_de_parfum_para_hombre_3ml_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -799,11 +799,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 110.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_3.webp"
+      "/fotos_perfumes/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mega_armaf_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -817,12 +817,12 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_angham_lattafa_eau_de_parfum_unisex_1.webp",
+    "image": "/fotos_perfumes/muestra_de_angham_lattafa_eau_de_parfum_unisex_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_angham_lattafa_eau_de_parfum_unisex_1.webp",
-      "/fragarabic_images/muestra_de_angham_lattafa_eau_de_parfum_unisex_2.webp",
-      "/fragarabic_images/muestra_de_angham_lattafa_eau_de_parfum_unisex_3.webp",
-      "/fragarabic_images/muestra_de_angham_lattafa_eau_de_parfum_unisex_4.webp"
+      "/fotos_perfumes/muestra_de_angham_lattafa_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/muestra_de_angham_lattafa_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/muestra_de_angham_lattafa_eau_de_parfum_unisex_3.webp",
+      "/fotos_perfumes/muestra_de_angham_lattafa_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -836,11 +836,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 130.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_3.webp"
+      "/fotos_perfumes/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_sheikh_shuyukh_final_edition_lattafa_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -854,13 +854,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_1.webp",
-      "/fragarabic_images/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_2.webp",
-      "/fragarabic_images/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_3.webp",
-      "/fragarabic_images/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_4.webp",
-      "/fragarabic_images/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_5.webp"
+      "/fotos_perfumes/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_3.webp",
+      "/fotos_perfumes/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_4.webp",
+      "/fotos_perfumes/muestra_de_eternal_touch_maison_alhambra_eau_de_parfum_hombre_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -874,13 +874,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_3.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_4.webp",
-      "/fragarabic_images/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_5.webp"
+      "/fotos_perfumes/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_4.webp",
+      "/fotos_perfumes/muestra_de_club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -894,12 +894,12 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 170.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_9pm_night_out_afnan_extrait_de_parfum_1.webp",
+    "image": "/fotos_perfumes/muestra_de_9pm_night_out_afnan_extrait_de_parfum_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_9pm_night_out_afnan_extrait_de_parfum_1.webp",
-      "/fragarabic_images/muestra_de_9pm_night_out_afnan_extrait_de_parfum_2.webp",
-      "/fragarabic_images/muestra_de_9pm_night_out_afnan_extrait_de_parfum_3.webp",
-      "/fragarabic_images/muestra_de_9pm_night_out_afnan_extrait_de_parfum_4.webp"
+      "/fotos_perfumes/muestra_de_9pm_night_out_afnan_extrait_de_parfum_1.webp",
+      "/fotos_perfumes/muestra_de_9pm_night_out_afnan_extrait_de_parfum_2.webp",
+      "/fotos_perfumes/muestra_de_9pm_night_out_afnan_extrait_de_parfum_3.webp",
+      "/fotos_perfumes/muestra_de_9pm_night_out_afnan_extrait_de_parfum_4.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -913,13 +913,13 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_3.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_4.webp",
-      "/fragarabic_images/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_5.webp"
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_4.webp",
+      "/fotos_perfumes/muestra_de_odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_5.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -933,11 +933,11 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_1.webp",
-      "/fragarabic_images/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_2.webp",
-      "/fragarabic_images/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_3.webp"
+      "/fotos_perfumes/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/muestra_de_yara_tous_lattafa_eau_de_parfum_para_mujer_3.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
@@ -951,12 +951,12 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
     "size": "3ML Atomizador",
-    "image": "/fragarabic_images/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fragarabic_images/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_1.webp",
-      "/fragarabic_images/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_2.webp",
-      "/fragarabic_images/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_3.webp",
-      "/fragarabic_images/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_4.webp"
+      "/fotos_perfumes/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/muestra_de_9am_dive_afnan_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
