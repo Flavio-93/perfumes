@@ -158,35 +158,12 @@ export default function ProductDetail({ id }: { id: string }) {
                     setSelectedSize("completo");
                     setSelectedImage(perfume.image);
                   }}
-                  className={`flex flex-col items-start p-4 border rounded relative transition-colors flex-1
-                    ${selectedSize === "completo" ? "border-brand-light bg-white/5" : "border-white/20 hover:border-white/50"}
-                  `}
+                  className="flex flex-col items-start p-4 border rounded relative transition-colors flex-1 border-brand-light bg-white/5"
                 >
-                  {selectedSize === "completo" && (
-                    <span className="absolute -top-2.5 right-4 bg-brand-light text-brand-dark text-[9px] font-bold px-2 py-0.5 rounded-full tracking-wider">SELECCIONADO</span>
-                  )}
+                  <span className="absolute -top-2.5 right-4 bg-brand-light text-brand-dark text-[9px] font-bold px-2 py-0.5 rounded-full tracking-wider">SELECCIONADO</span>
                   <span className="font-bold text-sm uppercase">100ML</span>
-                  <span className="text-xs text-brand-light/60">Frasco completo</span>
+                  <span className="text-xs text-brand-light/60">Frasco completo original</span>
                   <span className="font-bold text-sm mt-1">{perfume.price}</span>
-                </button>
-                
-                <button 
-                  onClick={() => {
-                    setSelectedSize("muestra");
-                    if (sample?.image) {
-                      setSelectedImage(sample.image);
-                    }
-                  }}
-                  className={`flex flex-col items-start p-4 border rounded relative transition-colors flex-1
-                    ${selectedSize === "muestra" ? "border-brand-light bg-white/5" : "border-white/20 hover:border-white/50"}
-                  `}
-                >
-                  {selectedSize === "muestra" && (
-                    <span className="absolute -top-2.5 right-4 bg-[#C48B57] text-white text-[9px] font-bold px-2 py-0.5 rounded-full tracking-wider">SELECCIONADO</span>
-                  )}
-                  <span className="font-bold text-sm uppercase">3ML (Muestra)</span>
-                  <span className="text-xs text-[#C48B57]">Foto Muestra</span>
-                  <span className="font-bold text-sm mt-1">S/. 15.00</span>
                 </button>
               </div>
             </div>

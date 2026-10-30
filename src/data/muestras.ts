@@ -37,7 +37,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-2",
     "perfumeId": "2",
-    "name": "9 PM Clásico",
+    "name": "9 PM",
     "brand": "AFNAN",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
@@ -52,12 +52,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
-    "description": "Muestra oficial de 3ml de 9 PM Clásico (AFNAN). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de 9 PM (AFNAN). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-3",
     "perfumeId": "3",
-    "name": "Yara Pink Clásico",
+    "name": "Yara",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 115.00",
@@ -72,12 +72,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
-    "description": "Muestra oficial de 3ml de Yara Pink Clásico (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Yara (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-4",
     "perfumeId": "4",
-    "name": "Amber Oud Gold Edition 120ml",
+    "name": "Amber Oud Gold Edition",
     "brand": "AL HARAMAIN",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 185.00",
@@ -92,7 +92,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
-    "description": "Muestra oficial de 3ml de Amber Oud Gold Edition 120ml (AL HARAMAIN). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Amber Oud Gold Edition (AL HARAMAIN). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-5",
@@ -252,7 +252,7 @@ export const muestras: MuestraItem[] = [
     "name": "Hawas Fire",
     "brand": "RASASI",
     "price": "S/. 15.00",
-    "bottlePrice": "S/. 155.00",
+    "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
     "image": "/fotos_perfumes/muestra_de_hawas_fire_rasasi_eau_de_parfum_3ml_1.webp",
     "gallery": [
@@ -270,7 +270,7 @@ export const muestras: MuestraItem[] = [
     "name": "Hawas Atlantis",
     "brand": "RASASI",
     "price": "S/. 15.00",
-    "bottlePrice": "S/. 155.00",
+    "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
     "image": "/fotos_perfumes/muestra_de_hawas_black_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
@@ -285,7 +285,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-15",
     "perfumeId": "15",
-    "name": "Khamrah Clásico",
+    "name": "Khamrah",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
@@ -300,7 +300,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "TOP VENTAS",
-    "description": "Muestra oficial de 3ml de Khamrah Clásico (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Khamrah (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-16",
@@ -325,7 +325,7 @@ export const muestras: MuestraItem[] = [
     "id": "m-17",
     "perfumeId": "17",
     "name": "Rome Imagine",
-    "brand": "MAISON ALHAMBRA",
+    "brand": "BHARARA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
     "size": "3ML Atomizador",
@@ -338,12 +338,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Rome Imagine (MAISON ALHAMBRA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Rome Imagine (BHARARA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-18",
     "perfumeId": "18",
-    "name": "Odyssey Aqua",
+    "name": "Odyssey Aqua Edition",
     "brand": "ARMAF",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 130.00",
@@ -356,7 +356,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Odyssey Aqua (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Odyssey Aqua Edition (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-19",
@@ -379,7 +379,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-20",
     "perfumeId": "20",
-    "name": "Dúo Eclaire",
+    "name": "Eclaire Banoffi",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 135.00",
@@ -392,7 +392,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Dúo Eclaire (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Eclaire Banoffi (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-21",
@@ -435,7 +435,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-23",
     "perfumeId": "23",
-    "name": "Art of Universe Set",
+    "name": "Art of Universe (Set)",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 180.00",
@@ -449,12 +449,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Art of Universe Set (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Art of Universe (Set) (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-24",
     "perfumeId": "24",
-    "name": "Nebras Women",
+    "name": "Nebras",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
@@ -467,7 +467,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Nebras Women (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Nebras (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-25",
@@ -475,7 +475,7 @@ export const muestras: MuestraItem[] = [
     "name": "Hawas Diva",
     "brand": "RASASI",
     "price": "S/. 15.00",
-    "bottlePrice": "S/. 155.00",
+    "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
     "image": "/fotos_perfumes/muestra_de_hawas_diva_rasasi_eau_de_parfum_1.webp",
     "gallery": [
@@ -512,7 +512,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-27",
     "perfumeId": "27",
-    "name": "Club de Nuit MALEKA",
+    "name": "Club de Nuit Maleka",
     "brand": "ARMAF",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
@@ -525,7 +525,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Club de Nuit MALEKA (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Club de Nuit Maleka (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-28",
@@ -533,7 +533,7 @@ export const muestras: MuestraItem[] = [
     "name": "Hawas Ice",
     "brand": "RASASI",
     "price": "S/. 15.00",
-    "bottlePrice": "S/. 155.00",
+    "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
     "image": "/fotos_perfumes/muestra_de_hawas_ice_rasasi_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
@@ -551,7 +551,7 @@ export const muestras: MuestraItem[] = [
     "name": "Hawas Tropical",
     "brand": "RASASI",
     "price": "S/. 15.00",
-    "bottlePrice": "S/. 155.00",
+    "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
     "image": "/fotos_perfumes/muestra_de_hawas_tropical_rasasi_eau_de_parfum_para_hombre_3ml_1.webp",
     "gallery": [
@@ -566,7 +566,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-30",
     "perfumeId": "30",
-    "name": "Mandarin Sky Elixir",
+    "name": "Odyssey Mandarin Sky Elixir",
     "brand": "ARMAF",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
@@ -581,7 +581,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Mandarin Sky Elixir (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Odyssey Mandarin Sky Elixir (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-31",
@@ -662,7 +662,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-35",
     "perfumeId": "35",
-    "name": "Club de Nuit Women",
+    "name": "Club de Nuit Woman",
     "brand": "ARMAF",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
@@ -677,7 +677,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Club de Nuit Women (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Club de Nuit Woman (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-36",
@@ -723,7 +723,7 @@ export const muestras: MuestraItem[] = [
     "name": "Hawas Malibu",
     "brand": "RASASI",
     "price": "S/. 15.00",
-    "bottlePrice": "S/. 155.00",
+    "bottlePrice": "S/. 150.00",
     "size": "3ML Atomizador",
     "image": "/fotos_perfumes/muestra_de_hawas_malibu_rasasi_eau_de_parfum_1.webp",
     "gallery": [
@@ -740,7 +740,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-39",
     "perfumeId": "39",
-    "name": "Sublime",
+    "name": "Bade'e Al Oud Sublime",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 120.00",
@@ -753,12 +753,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Sublime (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Bade'e Al Oud Sublime (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-40",
     "perfumeId": "40",
-    "name": "Hayaati",
+    "name": "Hayaati Al Maleky",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 95.00",
@@ -771,7 +771,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Hayaati (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Hayaati Al Maleky (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-41",
@@ -831,7 +831,7 @@ export const muestras: MuestraItem[] = [
   {
     "id": "m-44",
     "perfumeId": "44",
-    "name": "Ishq Al Shuyuk Silver",
+    "name": "Ishq Al Shuyukh Silver",
     "brand": "LATTAFA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 130.00",
@@ -844,12 +844,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Ishq Al Shuyuk Silver (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Ishq Al Shuyukh Silver (LATTAFA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-45",
     "perfumeId": "45",
-    "name": "Yuor Touch Intense",
+    "name": "Your Touch Intense",
     "brand": "MAISON ALHAMBRA",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 125.00",
@@ -864,12 +864,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Yuor Touch Intense (MAISON ALHAMBRA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Your Touch Intense (MAISON ALHAMBRA). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-46",
     "perfumeId": "46",
-    "name": "Urban man elixir",
+    "name": "Club de Nuit Urban Man Elixir",
     "brand": "ARMAF",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 140.00",
@@ -884,12 +884,12 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de Urban man elixir (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de Club de Nuit Urban Man Elixir (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-47",
     "perfumeId": "47",
-    "name": "9pm Night Out",
+    "name": "9 PM Night Out",
     "brand": "AFNAN",
     "price": "S/. 15.00",
     "bottlePrice": "S/. 170.00",
@@ -903,7 +903,7 @@ export const muestras: MuestraItem[] = [
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
-    "description": "Muestra oficial de 3ml de 9pm Night Out (AFNAN). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+    "description": "Muestra oficial de 3ml de 9 PM Night Out (AFNAN). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   },
   {
     "id": "m-48",
@@ -961,5 +961,22 @@ export const muestras: MuestraItem[] = [
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",
     "description": "Muestra oficial de 3ml de 9 AM Dive (AFNAN). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
+  },
+  {
+    "id": "m-51",
+    "perfumeId": "51",
+    "name": "Odyssey Homme",
+    "brand": "ARMAF",
+    "price": "S/. 15.00",
+    "bottlePrice": "S/. 115.00",
+    "size": "3ML Atomizador",
+    "image": "/fotos_perfumes/muestra_de_odyssey_homme_armaf_eau_de_parfum_para_hombre_3ml_1.webp",
+    "gallery": [
+      "/fotos_perfumes/muestra_de_odyssey_homme_armaf_eau_de_parfum_para_hombre_3ml_1.webp",
+      "/fotos_perfumes/muestra_de_odyssey_homme_armaf_eau_de_parfum_para_hombre_3ml_3.webp"
+    ],
+    "tag": "MUESTRA 3ML",
+    "badge": "NOVEDAD",
+    "description": "Muestra oficial de 3ml de Odyssey Homme (ARMAF). Presentación en atomizador de vidrio de alta precisión para probar el aroma, estela y fijación en tu piel antes de comprar el frasco grande."
   }
 ];

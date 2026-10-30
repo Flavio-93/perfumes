@@ -32,10 +32,10 @@ export default function Navbar() {
             </button>
             <div className="hidden lg:flex gap-6 text-[10px] xl:text-[11px] uppercase tracking-[0.15em] text-brand-light/80 font-bold">
               <Link href="/#catalogo" className="hover:text-brand-gold transition-colors py-2">Catálogo</Link>
-              <Link href="/muestras" className="hover:text-brand-gold text-brand-gold transition-colors py-2 flex items-center gap-1.5">
+              {/* <Link href="/muestras" className="hover:text-brand-gold text-brand-gold transition-colors py-2 flex items-center gap-1.5">
                 Muestras
                 <span className="bg-brand-gold/20 text-brand-gold text-[8px] px-1.5 py-0.5 rounded tracking-normal">3ML</span>
-              </Link>
+              </Link> */}
               <Link href="/#marcas" className="hover:text-brand-gold transition-colors py-2">Marcas</Link>
               <Link href="/#novedades" className="hover:text-brand-gold transition-colors py-2">Novedades</Link>
             </div>
@@ -85,14 +85,14 @@ export default function Navbar() {
               >
                 Catálogo
               </Link>
-              <Link 
+              {/* <Link 
                 href="/muestras" 
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-brand-gold hover:text-white py-2 border-b border-white/5 flex items-center justify-between"
               >
                 <span>Muestras</span>
                 <span className="bg-brand-gold text-brand-dark text-[9px] px-2 py-0.5 rounded font-extrabold">3ML / DECANTS</span>
-              </Link>
+              </Link> */}
               <Link 
                 href="/#marcas" 
                 onClick={() => setMobileMenuOpen(false)}

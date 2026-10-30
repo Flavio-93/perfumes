@@ -24,7 +24,7 @@ export const perfumes = [
   {
     "id": "2",
     "brand": "AFNAN",
-    "name": "9 PM Clásico",
+    "name": "9 PM",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -41,12 +41,12 @@ export const perfumes = [
       "/fotos_perfumes/9pm_afnan_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de 9 PM Clásico por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de 9 PM por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "3",
     "brand": "LATTAFA",
-    "name": "Yara Pink Clásico",
+    "name": "Yara",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -63,12 +63,12 @@ export const perfumes = [
       "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de Yara Pink Clásico por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Yara por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "4",
     "brand": "AL HARAMAIN",
-    "name": "Amber Oud Gold Edition 120ml",
+    "name": "Amber Oud Gold Edition",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -85,7 +85,7 @@ export const perfumes = [
       "/fotos_perfumes/amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de Amber Oud Gold Edition 120ml por AL HARAMAIN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Amber Oud Gold Edition por AL HARAMAIN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "5",
@@ -161,9 +161,12 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 130.00",
-    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop",
+    "image": "/fotos_perfumes/nitro_red_1.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop"
+      "/fotos_perfumes/nitro_red_1.webp",
+      "/fotos_perfumes/nitro_red_2.webp",
+      "/fotos_perfumes/nitro_red_3.webp",
+      "/fotos_perfumes/nitro_red_4.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Nitro Red por DUMONT. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -212,19 +215,19 @@ export const perfumes = [
   {
     "id": "11",
     "brand": "LATTAFA",
-    "name": "Eclaire",
+    "name": "Dúo Eclaire",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
       "PREMIUM"
     ],
     "price": "S/. 125.00",
-    "image": "/fotos_perfumes/eclaire_banoffi_eau_de_parfum_unisex_1.webp",
+    "image": "/fotos_perfumes/duo_eclaire_1.webp",
     "gallery": [
-      "/fotos_perfumes/eclaire_banoffi_eau_de_parfum_unisex_1.webp",
-      "/fotos_perfumes/eclaire_banoffi_eau_de_parfum_unisex_2.webp",
-      "/fotos_perfumes/eclaire_banoffi_eau_de_parfum_unisex_3.webp",
-      "/fotos_perfumes/eclaire_banoffi_eau_de_parfum_unisex_4.webp"
+      "/fotos_perfumes/duo_eclaire_1.webp",
+      "/fotos_perfumes/duo_eclaire_2.webp",
+      "/fotos_perfumes/duo_eclaire_3.webp",
+      "/fotos_perfumes/duo_eclaire_4.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Eclaire por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -258,7 +261,7 @@ export const perfumes = [
       "EXCLUSIVO",
       "PREMIUM"
     ],
-    "price": "S/. 155.00",
+    "price": "S/. 150.00",
     "image": "/fotos_perfumes/hawas_fire_rasasi_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
       "/fotos_perfumes/hawas_fire_rasasi_eau_de_parfum_para_hombre_1.webp",
@@ -278,13 +281,10 @@ export const perfumes = [
       "EXCLUSIVO",
       "PREMIUM"
     ],
-    "price": "S/. 155.00",
-    "image": "/fotos_perfumes/hawas_black_rasasi_eau_de_parfum_para_hombre_1.webp",
+    "price": "S/. 150.00",
+    "image": "/fotos_perfumes/hawas_atlantis_rasasi_1.jpg",
     "gallery": [
-      "/fotos_perfumes/hawas_black_rasasi_eau_de_parfum_para_hombre_1.webp",
-      "/fotos_perfumes/hawas_black_rasasi_eau_de_parfum_para_hombre_2.webp",
-      "/fotos_perfumes/hawas_black_rasasi_eau_de_parfum_para_hombre_3.webp",
-      "/fotos_perfumes/hawas_black_rasasi_eau_de_parfum_para_hombre_4.webp"
+      "/fotos_perfumes/hawas_atlantis_rasasi_1.jpg"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Hawas Atlantis por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -292,7 +292,7 @@ export const perfumes = [
   {
     "id": "15",
     "brand": "LATTAFA",
-    "name": "Khamrah Clásico",
+    "name": "Khamrah",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -309,7 +309,7 @@ export const perfumes = [
       "/fotos_perfumes/khamrah_lattafa_eau_de_parfum_unisex_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Khamrah Clásico por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Khamrah por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "16",
@@ -334,7 +334,7 @@ export const perfumes = [
   },
   {
     "id": "17",
-    "brand": "MAISON ALHAMBRA",
+    "brand": "BHARARA",
     "name": "Rome Imagine",
     "type": "EAU DE PARFUM",
     "notes": [
@@ -342,17 +342,20 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 120.00",
-    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop",
+    "image": "/fotos_perfumes/rome_imagine_1.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop"
+      "/fotos_perfumes/rome_imagine_1.webp",
+      "/fotos_perfumes/rome_imagine_2.webp",
+      "/fotos_perfumes/rome_imagine_3.webp",
+      "/fotos_perfumes/rome_imagine_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Rome Imagine por MAISON ALHAMBRA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Rome Imagine por BHARARA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "18",
     "brand": "ARMAF",
-    "name": "Odyssey Aqua",
+    "name": "Odyssey Aqua Edition",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -367,7 +370,7 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Aqua por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Aqua Edition por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "19",
@@ -392,7 +395,7 @@ export const perfumes = [
   {
     "id": "20",
     "brand": "LATTAFA",
-    "name": "Dúo Eclaire",
+    "name": "Eclaire Banoffi",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -407,7 +410,7 @@ export const perfumes = [
       "/fotos_perfumes/eclaire_banoffi_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Dúo Eclaire por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Eclaire Banoffi por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "21",
@@ -439,12 +442,12 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 150.00",
-    "image": "/fotos_perfumes/island_bliss_armaf_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/island_breeze_1.webp",
     "gallery": [
-      "/fotos_perfumes/island_bliss_armaf_eau_de_parfum_para_mujer_1.webp",
-      "/fotos_perfumes/island_bliss_armaf_eau_de_parfum_para_mujer_2.webp",
-      "/fotos_perfumes/island_bliss_armaf_eau_de_parfum_para_mujer_3.webp",
-      "/fotos_perfumes/island_bliss_armaf_eau_de_parfum_para_mujer_4.webp"
+      "/fotos_perfumes/island_breeze_1.webp",
+      "/fotos_perfumes/island_breeze_2.webp",
+      "/fotos_perfumes/island_breeze_3.webp",
+      "/fotos_perfumes/island_breeze_4.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Island Breeze por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -452,7 +455,7 @@ export const perfumes = [
   {
     "id": "23",
     "brand": "LATTAFA",
-    "name": "Art of Universe Set",
+    "name": "Art of Universe (Set)",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -468,12 +471,12 @@ export const perfumes = [
       "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Art of Universe Set por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Art of Universe (Set) por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "24",
     "brand": "LATTAFA",
-    "name": "Nebras Women",
+    "name": "Nebras",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -488,7 +491,7 @@ export const perfumes = [
       "/fotos_perfumes/nebras_lattafa_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Nebras Women por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Nebras por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "25",
@@ -499,7 +502,7 @@ export const perfumes = [
       "EXCLUSIVO",
       "PREMIUM"
     ],
-    "price": "S/. 155.00",
+    "price": "S/. 150.00",
     "image": "/fotos_perfumes/hawas_diva_rasasi_eau_de_parfum_1.webp",
     "gallery": [
       "/fotos_perfumes/hawas_diva_rasasi_eau_de_parfum_1.webp",
@@ -537,24 +540,20 @@ export const perfumes = [
   {
     "id": "27",
     "brand": "ARMAF",
-    "name": "Club de Nuit MALEKA",
+    "name": "Club de Nuit Maleka",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
       "PREMIUM"
     ],
     "price": "S/. 140.00",
-    "image": "/fotos_perfumes/club_de_nuit_bling_armaf_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/club_de_nuit_maleka_armaf_eau_de_parfum_1.webp",
     "gallery": [
-      "/fotos_perfumes/club_de_nuit_bling_armaf_eau_de_parfum_1.webp",
-      "/fotos_perfumes/club_de_nuit_bling_armaf_eau_de_parfum_2.webp",
-      "/fotos_perfumes/club_de_nuit_bling_armaf_eau_de_parfum_3.webp",
-      "/fotos_perfumes/club_de_nuit_bling_armaf_eau_de_parfum_4.webp",
-      "/fotos_perfumes/club_de_nuit_bling_armaf_eau_de_parfum_5.webp",
-      "/fotos_perfumes/club_de_nuit_bling_armaf_eau_de_parfum_6.webp"
+      "/fotos_perfumes/club_de_nuit_maleka_armaf_eau_de_parfum_1.webp",
+      "/fotos_perfumes/club_de_nuit_maleka_armaf_eau_de_parfum_2.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Club de Nuit MALEKA por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Club de Nuit Maleka por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "28",
@@ -565,7 +564,7 @@ export const perfumes = [
       "EXCLUSIVO",
       "PREMIUM"
     ],
-    "price": "S/. 155.00",
+    "price": "S/. 150.00",
     "image": "/fotos_perfumes/hawas_ice_rasasi_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
       "/fotos_perfumes/hawas_ice_rasasi_eau_de_parfum_para_hombre_1.webp",
@@ -585,7 +584,7 @@ export const perfumes = [
       "EXCLUSIVO",
       "PREMIUM"
     ],
-    "price": "S/. 155.00",
+    "price": "S/. 150.00",
     "image": "/fotos_perfumes/hawas_tropical_rasasi_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
       "/fotos_perfumes/hawas_tropical_rasasi_eau_de_parfum_para_hombre_1.webp",
@@ -599,7 +598,7 @@ export const perfumes = [
   {
     "id": "30",
     "brand": "ARMAF",
-    "name": "Mandarin Sky Elixir",
+    "name": "Odyssey Mandarin Sky Elixir",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -616,7 +615,7 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Mandarin Sky Elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Mandarin Sky Elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "31",
@@ -672,12 +671,12 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 170.00",
-    "image": "/fotos_perfumes/veneno_bianco_french_avenue_eau_de_parfum_1.webp",
+    "image": "/fotos_perfumes/veneno_black_1.webp",
     "gallery": [
-      "/fotos_perfumes/veneno_bianco_french_avenue_eau_de_parfum_1.webp",
-      "/fotos_perfumes/veneno_bianco_french_avenue_eau_de_parfum_2.webp",
-      "/fotos_perfumes/veneno_bianco_french_avenue_eau_de_parfum_3.webp",
-      "/fotos_perfumes/veneno_bianco_french_avenue_eau_de_parfum_4.webp"
+      "/fotos_perfumes/veneno_black_1.webp",
+      "/fotos_perfumes/veneno_black_2.webp",
+      "/fotos_perfumes/veneno_black_3.webp",
+      "/fotos_perfumes/veneno_black_4.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Veneno Black por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -705,7 +704,7 @@ export const perfumes = [
   {
     "id": "35",
     "brand": "ARMAF",
-    "name": "Club de Nuit Women",
+    "name": "Club de Nuit Woman",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -722,7 +721,7 @@ export const perfumes = [
       "/fotos_perfumes/club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Club de Nuit Women por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Club de Nuit Woman por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "36",
@@ -775,7 +774,7 @@ export const perfumes = [
       "EXCLUSIVO",
       "PREMIUM"
     ],
-    "price": "S/. 155.00",
+    "price": "S/. 150.00",
     "image": "/fotos_perfumes/hawas_malibu_rasasi_eau_de_parfum_1.webp",
     "gallery": [
       "/fotos_perfumes/hawas_malibu_rasasi_eau_de_parfum_1.webp",
@@ -791,7 +790,7 @@ export const perfumes = [
   {
     "id": "39",
     "brand": "LATTAFA",
-    "name": "Sublime",
+    "name": "Bade'e Al Oud Sublime",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -806,12 +805,12 @@ export const perfumes = [
       "/fotos_perfumes/badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Sublime por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Bade'e Al Oud Sublime por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "40",
     "brand": "LATTAFA",
-    "name": "Hayaati",
+    "name": "Hayaati Al Maleky",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -826,7 +825,7 @@ export const perfumes = [
       "/fotos_perfumes/hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Hayaati por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hayaati Al Maleky por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "41",
@@ -892,46 +891,47 @@ export const perfumes = [
   {
     "id": "44",
     "brand": "LATTAFA",
-    "name": "Ishq Al Shuyuk Silver",
+    "name": "Ishq Al Shuyukh Silver",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
       "PREMIUM"
     ],
     "price": "S/. 130.00",
-    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop",
+    "image": "/fotos_perfumes/ishq_al_shuyukh_silver_1.webp",
     "gallery": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=600&auto=format&fit=crop"
+      "/fotos_perfumes/ishq_al_shuyukh_silver_1.webp",
+      "/fotos_perfumes/ishq_al_shuyukh_silver_2.webp",
+      "/fotos_perfumes/ishq_al_shuyukh_silver_3.webp",
+      "/fotos_perfumes/ishq_al_shuyukh_silver_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Ishq Al Shuyuk Silver por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Ishq Al Shuyukh Silver por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "45",
     "brand": "MAISON ALHAMBRA",
-    "name": "Yuor Touch Intense",
+    "name": "Your Touch Intense",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
       "PREMIUM"
     ],
     "price": "S/. 125.00",
-    "image": "/fotos_perfumes/eternal_touch_maison_alhambra_eau_de_parfum_hombre_1.webp",
+    "image": "/fotos_perfumes/your_touch_intense_1.webp",
     "gallery": [
-      "/fotos_perfumes/eternal_touch_maison_alhambra_eau_de_parfum_hombre_1.webp",
-      "/fotos_perfumes/eternal_touch_maison_alhambra_eau_de_parfum_hombre_2.webp",
-      "/fotos_perfumes/eternal_touch_maison_alhambra_eau_de_parfum_hombre_3.webp",
-      "/fotos_perfumes/eternal_touch_maison_alhambra_eau_de_parfum_hombre_4.webp",
-      "/fotos_perfumes/eternal_touch_maison_alhambra_eau_de_parfum_hombre_5.webp",
-      "/fotos_perfumes/eternal_touch_maison_alhambra_eau_de_parfum_hombre_6.webp"
+      "/fotos_perfumes/your_touch_intense_1.webp",
+      "/fotos_perfumes/your_touch_intense_2.webp",
+      "/fotos_perfumes/your_touch_intense_3.webp",
+      "/fotos_perfumes/your_touch_intense_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Yuor Touch Intense por MAISON ALHAMBRA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Your Touch Intense por MAISON ALHAMBRA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "46",
     "brand": "ARMAF",
-    "name": "Urban man elixir",
+    "name": "Club de Nuit Urban Man Elixir",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -948,12 +948,12 @@ export const perfumes = [
       "/fotos_perfumes/club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Urban man elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Club de Nuit Urban Man Elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "47",
     "brand": "AFNAN",
-    "name": "9pm Night Out",
+    "name": "9 PM Night Out",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
@@ -969,7 +969,7 @@ export const perfumes = [
       "/fotos_perfumes/9pm_night_out_afnan_extrait_de_parfum_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de 9pm Night Out por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de 9 PM Night Out por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "48",
@@ -1003,14 +1003,12 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 125.00",
-    "image": "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_1.webp",
+    "image": "/fotos_perfumes/duo_yara_pink_1.webp",
     "gallery": [
-      "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_1.webp",
-      "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_2.webp",
-      "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_3.webp",
-      "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_4.webp",
-      "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_5.webp",
-      "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_6.webp"
+      "/fotos_perfumes/duo_yara_pink_1.webp",
+      "/fotos_perfumes/duo_yara_pink_2.webp",
+      "/fotos_perfumes/duo_yara_pink_3.webp",
+      "/fotos_perfumes/duo_yara_pink_4.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Dúo Yara Pink por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -1035,5 +1033,66 @@ export const perfumes = [
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de 9 AM Dive por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+  },
+  {
+    "id": "51",
+    "brand": "ARMAF",
+    "name": "Odyssey Homme",
+    "type": "EAU DE PARFUM",
+    "notes": [
+      "EXCLUSIVO",
+      "PREMIUM"
+    ],
+    "price": "S/. 115.00",
+    "image": "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_1.webp",
+    "gallery": [
+      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_4.webp"
+    ],
+    "tag": "",
+    "description": "Descubre la esencia exclusiva de Odyssey Homme por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+  },
+  {
+    "id": "52",
+    "brand": "LATTAFA",
+    "name": "Art of Universe",
+    "type": "EAU DE PARFUM",
+    "notes": [
+      "EXCLUSIVO",
+      "PREMIUM"
+    ],
+    "price": "S/. 165.00",
+    "image": "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_1.webp",
+    "gallery": [
+      "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_3.webp",
+      "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_4.webp",
+      "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_5.webp"
+    ],
+    "tag": "",
+    "description": "Descubre la esencia exclusiva de Art of Universe por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+  },
+  {
+    "id": "53",
+    "brand": "RAYHAAN",
+    "name": "Rayhaan Lion",
+    "type": "EAU DE PARFUM",
+    "notes": [
+      "EXCLUSIVO",
+      "PREMIUM"
+    ],
+    "price": "S/. 140.00",
+    "image": "/fotos_perfumes/rayhaan_lion_1.webp",
+    "gallery": [
+      "/fotos_perfumes/rayhaan_lion_1.webp",
+      "/fotos_perfumes/rayhaan_lion_2.webp",
+      "/fotos_perfumes/rayhaan_lion_3.webp",
+      "/fotos_perfumes/rayhaan_lion_4.webp"
+    ],
+    "tag": "NOVEDAD",
+    "description": "Descubre la esencia exclusiva de Rayhaan Lion por RAYHAAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   }
 ];

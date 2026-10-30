@@ -73,10 +73,10 @@ export default function BrandsSection() {
           </div>
           
           <Link 
-            href="/muestras" 
+            href="/#catalogo" 
             className="inline-flex items-center gap-2 text-xs font-bold text-brand-gold hover:text-white uppercase tracking-widest transition-colors"
           >
-            Ver muestras por marca <ArrowRight size={14} />
+            Ver catálogo completo <ArrowRight size={14} />
           </Link>
         </div>
 
@@ -104,7 +104,7 @@ export default function BrandsSection() {
               </p>
 
               <Link 
-                href="/muestras"
+                href="/#catalogo"
                 className="text-[10px] font-bold text-brand-gold uppercase tracking-widest flex items-center gap-1 group-hover:translate-x-1 transition-transform"
               >
                 Explorar catálogo &rarr;

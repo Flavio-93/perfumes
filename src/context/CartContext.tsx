@@ -285,7 +285,7 @@ function CartDrawer() {
             </span>
           </div>
           <span className="text-[11px] text-brand-light/50 uppercase tracking-widest font-semibold">
-            Perfumes & Muestras
+            Perfumes Exclusivos
           </span>
         </div>
 
@@ -296,7 +296,7 @@ function CartDrawer() {
               <ShoppingBag size={48} className="text-brand-gold/30 mb-4 stroke-1" />
               <p className="text-base font-semibold text-brand-light mb-1">Tu carrito está vacío</p>
               <p className="text-xs text-brand-light/50 max-w-xs mb-6">
-                Agrega perfumes completos o muestras a tu carrito para comenzar tu pedido.
+                Agrega perfumes a tu carrito para comenzar tu pedido.
               </p>
               <button
                 onClick={closeCart}
