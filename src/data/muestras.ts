@@ -180,10 +180,10 @@ export const muestras: MuestraItem[] = [
     "price": "S/. 15.00",
     "bottlePrice": "S/. 90.00",
     "size": "3ML Atomizador",
-    "image": "/fotos_perfumes/nautica_voyage_1.jpg",
+    "image": "/fotos_perfumes/nautica_voyage_1.webp",
     "gallery": [
-      "/fotos_perfumes/nautica_voyage_1.jpg",
-      "/fotos_perfumes/nautica_voyage_2.jpg"
+      "/fotos_perfumes/nautica_voyage_1.webp",
+      "/fotos_perfumes/nautica_voyage_2.webp"
     ],
     "tag": "MUESTRA 3ML",
     "badge": "MUESTRA ORIGINAL",

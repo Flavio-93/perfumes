@@ -161,12 +161,14 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 130.00",
-    "image": "/fotos_perfumes/nitro_red_1.webp",
+    "image": "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fotos_perfumes/nitro_red_1.webp",
-      "/fotos_perfumes/nitro_red_2.webp",
-      "/fotos_perfumes/nitro_red_3.webp",
-      "/fotos_perfumes/nitro_red_4.webp"
+      "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_4.webp",
+      "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_5.webp",
+      "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Nitro Red por DUMONT. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -181,12 +183,12 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 90.00",
-    "image": "/fotos_perfumes/nautica_voyage_1.jpg",
+    "image": "/fotos_perfumes/nautica_voyage_1.webp",
     "gallery": [
-      "/fotos_perfumes/nautica_voyage_1.jpg",
-      "/fotos_perfumes/nautica_voyage_2.jpg",
-      "/fotos_perfumes/nautica_voyage_3.jpg",
-      "/fotos_perfumes/nautica_voyage_4.jpg"
+      "/fotos_perfumes/nautica_voyage_1.webp",
+      "/fotos_perfumes/nautica_voyage_2.webp",
+      "/fotos_perfumes/nautica_voyage_3.webp",
+      "/fotos_perfumes/nautica_voyage_4.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Nautica Voyage por NAUTICA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -222,12 +224,11 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 125.00",
-    "image": "/fotos_perfumes/duo_eclaire_1.webp",
+    "image": "/fotos_perfumes/eclaire_spray_lattafa_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fotos_perfumes/duo_eclaire_1.webp",
-      "/fotos_perfumes/duo_eclaire_2.webp",
-      "/fotos_perfumes/duo_eclaire_3.webp",
-      "/fotos_perfumes/duo_eclaire_4.webp"
+      "/fotos_perfumes/eclaire_spray_lattafa_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/eclaire_spray_lattafa_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/eclaire_spray_lattafa_eau_de_parfum_para_mujer_3.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Eclaire por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -282,9 +283,9 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 150.00",
-    "image": "/fotos_perfumes/hawas_atlantis_rasasi_1.jpg",
+    "image": "/fotos_perfumes/hawas_atlantis_rasasi_1.webp",
     "gallery": [
-      "/fotos_perfumes/hawas_atlantis_rasasi_1.jpg"
+      "/fotos_perfumes/hawas_atlantis_rasasi_1.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Hawas Atlantis por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -342,12 +343,12 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 120.00",
-    "image": "/fotos_perfumes/rome_imagine_1.webp",
+    "image": "/fotos_perfumes/rome_imagine_bharara_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fotos_perfumes/rome_imagine_1.webp",
-      "/fotos_perfumes/rome_imagine_2.webp",
-      "/fotos_perfumes/rome_imagine_3.webp",
-      "/fotos_perfumes/rome_imagine_4.webp"
+      "/fotos_perfumes/rome_imagine_bharara_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/rome_imagine_bharara_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/rome_imagine_bharara_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/rome_imagine_bharara_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Rome Imagine por BHARARA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -442,12 +443,14 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 150.00",
-    "image": "/fotos_perfumes/island_breeze_1.webp",
+    "image": "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fotos_perfumes/island_breeze_1.webp",
-      "/fotos_perfumes/island_breeze_2.webp",
-      "/fotos_perfumes/island_breeze_3.webp",
-      "/fotos_perfumes/island_breeze_4.webp"
+      "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_2.webp",
+      "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_3.webp",
+      "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_4.webp",
+      "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_5.webp",
+      "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_6.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Island Breeze por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -671,12 +674,12 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 170.00",
-    "image": "/fotos_perfumes/veneno_black_1.webp",
+    "image": "/fotos_perfumes/veneno_french_avenue_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fotos_perfumes/veneno_black_1.webp",
-      "/fotos_perfumes/veneno_black_2.webp",
-      "/fotos_perfumes/veneno_black_3.webp",
-      "/fotos_perfumes/veneno_black_4.webp"
+      "/fotos_perfumes/veneno_french_avenue_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/veneno_french_avenue_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/veneno_french_avenue_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/veneno_french_avenue_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Veneno Black por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -810,22 +813,24 @@ export const perfumes = [
   {
     "id": "40",
     "brand": "LATTAFA",
-    "name": "Hayaati Al Maleky",
+    "name": "Hayaati",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
       "PREMIUM"
     ],
     "price": "S/. 95.00",
-    "image": "/fotos_perfumes/hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fotos_perfumes/hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_1.webp",
-      "/fotos_perfumes/hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_2.webp",
-      "/fotos_perfumes/hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_3.webp",
-      "/fotos_perfumes/hayaati_al_maleky_lattafa_eau_de_parfum_para_hombre_4.webp"
+      "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_3.webp",
+      "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_4.webp",
+      "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_5.webp",
+      "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Hayaati Al Maleky por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hayaati por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "41",
@@ -898,12 +903,11 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 130.00",
-    "image": "/fotos_perfumes/ishq_al_shuyukh_silver_1.webp",
+    "image": "/fotos_perfumes/Al_Shuyukh_Silver_eau_de_parfum_unisex_1.webp",
     "gallery": [
-      "/fotos_perfumes/ishq_al_shuyukh_silver_1.webp",
-      "/fotos_perfumes/ishq_al_shuyukh_silver_2.webp",
-      "/fotos_perfumes/ishq_al_shuyukh_silver_3.webp",
-      "/fotos_perfumes/ishq_al_shuyukh_silver_4.webp"
+      "/fotos_perfumes/Al_Shuyukh_Silver_eau_de_parfum_unisex_1.webp",
+      "/fotos_perfumes/Al_Shuyukh_Silver_eau_de_parfum_unisex_2.webp",
+      "/fotos_perfumes/Al_Shuyukh_Silver_eau_de_parfum_unisex_3.webp"
     ],
     "tag": "",
     "description": "Descubre la esencia exclusiva de Ishq Al Shuyukh Silver por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -918,12 +922,11 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 125.00",
-    "image": "/fotos_perfumes/your_touch_intense_1.webp",
+    "image": "/fotos_perfumes/your_touch_intense_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fotos_perfumes/your_touch_intense_1.webp",
-      "/fotos_perfumes/your_touch_intense_2.webp",
-      "/fotos_perfumes/your_touch_intense_3.webp",
-      "/fotos_perfumes/your_touch_intense_4.webp"
+      "/fotos_perfumes/your_touch_intense_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/your_touch_intense_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/your_touch_intense_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Your Touch Intense por MAISON ALHAMBRA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -1003,12 +1006,10 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 125.00",
-    "image": "/fotos_perfumes/duo_yara_pink_1.webp",
+    "image": "/fotos_perfumes/yara_spray_lattafa_eau_de_parfum_para_mujer_1.webp",
     "gallery": [
-      "/fotos_perfumes/duo_yara_pink_1.webp",
-      "/fotos_perfumes/duo_yara_pink_2.webp",
-      "/fotos_perfumes/duo_yara_pink_3.webp",
-      "/fotos_perfumes/duo_yara_pink_4.webp"
+      "/fotos_perfumes/yara_spray_lattafa_eau_de_parfum_para_mujer_1.webp",
+      "/fotos_perfumes/yara_spray_lattafa_eau_de_parfum_para_mujer_2.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Dúo Yara Pink por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
@@ -1037,22 +1038,19 @@ export const perfumes = [
   {
     "id": "51",
     "brand": "ARMAF",
-    "name": "Odyssey Homme",
+    "name": "Odyssey Homme White",
     "type": "EAU DE PARFUM",
     "notes": [
       "EXCLUSIVO",
       "PREMIUM"
     ],
     "price": "S/. 115.00",
-    "image": "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_1.webp",
+    "image": "/fotos_perfumes/odyssey_homme_white_edition_armaf_eau_de_parfum_para_hombre_2.webp",
     "gallery": [
-      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_1.webp",
-      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_2.webp",
-      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_3.webp",
-      "/fotos_perfumes/odyssey_homme_armaf_eau_de_parfum_para_hombre_4.webp"
+      "/fotos_perfumes/odyssey_homme_white_edition_armaf_eau_de_parfum_para_hombre_2.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Homme por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Homme White por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
   },
   {
     "id": "52",
@@ -1085,12 +1083,11 @@ export const perfumes = [
       "PREMIUM"
     ],
     "price": "S/. 140.00",
-    "image": "/fotos_perfumes/rayhaan_lion_1.webp",
+    "image": "/fotos_perfumes/rayhaan_lion_eau_de_parfum_para_hombre_1.webp",
     "gallery": [
-      "/fotos_perfumes/rayhaan_lion_1.webp",
-      "/fotos_perfumes/rayhaan_lion_2.webp",
-      "/fotos_perfumes/rayhaan_lion_3.webp",
-      "/fotos_perfumes/rayhaan_lion_4.webp"
+      "/fotos_perfumes/rayhaan_lion_eau_de_parfum_para_hombre_1.webp",
+      "/fotos_perfumes/rayhaan_lion_eau_de_parfum_para_hombre_2.webp",
+      "/fotos_perfumes/rayhaan_lion_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "NOVEDAD",
     "description": "Descubre la esencia exclusiva de Rayhaan Lion por RAYHAAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
