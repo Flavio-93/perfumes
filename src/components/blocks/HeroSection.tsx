@@ -10,11 +10,11 @@ const slides = [
     tagIcon: Flame,
     subtitle: "Lujo Árabe 100% Original de Dubái",
     title: "PERFUMES ÁRABES EXCLUSIVOS",
-    description: "Estela bestial, fijación de más de 12 horas y fragancias que roban miradas en todo momento.",
+    description: "Estela imponente, fijación de más de 12 horas y fragancias opulentas con notas de oud, ámbar y vainilla que cautivan.",
     buttonText: "EXPLORAR CATÁLOGO",
     secondaryButtonText: "VER NOVEDADES",
     secondaryLink: "#catalogo",
-    image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=2000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=2000&auto=format&fit=crop",
     link: "#catalogo"
   },
   {
@@ -23,11 +23,11 @@ const slides = [
     tagIcon: MessageCircleQuestion,
     subtitle: "¿No sabes qué aroma va mejor contigo?",
     title: "¿CUÁL ES TU PERFUME IDEAL?",
-    description: "Escríbenos por WhatsApp y te recomendamos la fragancia perfecta según tu estilo, ocasión o clima.",
+    description: "Escríbenos por WhatsApp y nuestro sommelier de fragancias te guiará para elegir la joya perfecta para ti.",
     buttonText: "ASESORARME POR WHATSAPP",
     secondaryButtonText: "VER MARCAS",
     secondaryLink: "#marcas",
-    image: "https://images.unsplash.com/photo-1615486171448-4fc1ebfaad10?q=80&w=2000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?q=80&w=2000&auto=format&fit=crop",
     link: `https://wa.me/${businessData.whatsappNumber}?text=Hola,%20deseo%20asesor%C3%ADa%20para%20elegir%20mi%20perfume%20%C3%A1rabe%20ideal.`
   },
   {
@@ -36,11 +36,11 @@ const slides = [
     tagIcon: ShieldCheck,
     subtitle: "Garantía de Originalidad y Entrega Rápida",
     title: "FRASCOS SELLADOS DE DUBÁI",
-    description: "Lattafa, Afnan, Armaf, Rasasi, French Avenue y Al Haramain con despacho express en 24 a 48h.",
+    description: "Lattafa, Afnan, Armaf, French Avenue y Al Haramain directo a tu puerta con despacho express 24-48h.",
     buttonText: "VER COLECCIÓN SELLADA",
     secondaryButtonText: "PEDIR AHORA",
     secondaryLink: "#catalogo",
-    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=2000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?q=80&w=2000&auto=format&fit=crop",
     link: "#catalogo"
   }
 ];
