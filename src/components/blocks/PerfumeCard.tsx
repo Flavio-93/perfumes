@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { useCart } from "@/context/CartContext";
+import { useStock } from "@/context/StockContext";
 import { Plus, Minus, ArrowRight, Sparkles } from "lucide-react";
 
 export interface PerfumeItem {
@@ -22,7 +23,10 @@ interface PerfumeCardProps {
 
 export default function PerfumeCard({ perfume }: PerfumeCardProps) {
   const { addToCart, updateQuantity, getItemQuantity } = useCart();
-  const isOutOfStock = typeof perfume.stock === "number" && perfume.stock <= 0;
+  const { getStock, isOutOfStock: checkOutOfStock } = useStock();
+
+  const currentStock = getStock(perfume.id);
+  const isOutOfStock = checkOutOfStock(perfume.id);
 
   // Full bottle quantity in cart
   const quantity = getItemQuantity(perfume.id, "frasco");
@@ -114,21 +118,19 @@ export default function PerfumeCard({ perfume }: PerfumeCardProps) {
               Frasco 100 ML
             </span>
           </div>
-          {typeof perfume.stock === "number" && (
-            <div className="flex items-center justify-center">
-              {perfume.stock > 0 ? (
-                <span className="text-[8px] sm:text-[10px] font-semibold text-emerald-400/90 flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
-                  En Stock ({perfume.stock} disponibles)
-                </span>
-              ) : (
-                <span className="text-[8px] sm:text-[10px] font-semibold text-red-400/90 flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>
-                  Agotado
-                </span>
-              )}
-            </div>
-          )}
+          <div className="flex items-center justify-center">
+            {currentStock > 0 ? (
+              <span className="text-[8px] sm:text-[10px] font-semibold text-emerald-400/90 flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
+                En Stock ({currentStock} disponibles)
+              </span>
+            ) : (
+              <span className="text-[8px] sm:text-[10px] font-semibold text-red-400/90 flex items-center gap-1">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>
+                Agotado
+              </span>
+            )}
+          </div>
         </div>
 
         {/* Price Display */}

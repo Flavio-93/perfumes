@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { businessData } from "@/data/businessContent";
 import { CartProvider } from "@/context/CartContext";
+import { StockProvider } from "@/context/StockContext";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -42,7 +43,9 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <CartProvider>{children}</CartProvider>
+        <CartProvider>
+          <StockProvider>{children}</StockProvider>
+        </CartProvider>
       </body>
     </html>
   );
