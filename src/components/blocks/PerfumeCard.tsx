@@ -23,9 +23,10 @@ interface PerfumeCardProps {
 
 export default function PerfumeCard({ perfume }: PerfumeCardProps) {
   const { addToCart, updateQuantity, getItemQuantity } = useCart();
-  const { getStock, isOutOfStock: checkOutOfStock } = useStock();
+  const { getStock, getPrice, isOutOfStock: checkOutOfStock } = useStock();
 
   const currentStock = getStock(perfume.id);
+  const currentPrice = getPrice(perfume.id, perfume.price);
   const isOutOfStock = checkOutOfStock(perfume.id);
 
   // Full bottle quantity in cart
@@ -38,7 +39,7 @@ export default function PerfumeCard({ perfume }: PerfumeCardProps) {
         name: perfume.name,
         brand: perfume.brand,
         image: perfume.image,
-        price: perfume.price,
+        price: currentPrice,
       },
       "frasco"
     );
@@ -138,7 +139,7 @@ export default function PerfumeCard({ perfume }: PerfumeCardProps) {
           <span className="text-[8px] sm:text-[10px] text-brand-light/60 uppercase font-semibold">
             Precio
           </span>
-          <span className="text-xs sm:text-sm font-black text-brand-gold">{perfume.price}</span>
+          <span className="text-xs sm:text-sm font-black text-brand-gold">{currentPrice}</span>
         </div>
 
         {/* Action Button: Add to Cart OR Quantity Controls OR Agotado */}

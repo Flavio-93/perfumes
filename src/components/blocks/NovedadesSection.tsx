@@ -5,7 +5,7 @@ import { Search, X, Filter, Sparkles, ChevronDown, Check } from "lucide-react";
 import PerfumeCard from "@/components/blocks/PerfumeCard";
 import { useSearch } from "@/context/SearchContext";
 
-type GenderFilter = "ALL" | "HOMBRE" | "MUJER" | "UNISEX";
+type GenderFilter = "ALL" | "HOMBRE" | "MUJER";
 
 export default function NovedadesSection() {
   const { searchQuery, setSearchQuery, selectedBrand, setSelectedBrand, clearFilters } = useSearch();
@@ -181,7 +181,6 @@ export default function NovedadesSection() {
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#C5A059]/15 text-[#8C6D23] border border-[#C5A059]/30 rounded-lg text-xs font-bold">
                   {selectedGender === "HOMBRE" && "👨 Para Él"}
                   {selectedGender === "MUJER" && "👩 Para Ella"}
-                  {selectedGender === "UNISEX" && "✨ Unisex"}
                   <button 
                     type="button" 
                     onClick={() => setSelectedGender("ALL")}
@@ -235,30 +234,30 @@ export default function NovedadesSection() {
               {/* 1. Categoría de Género */}
               <div className="mb-6">
                 <span className="block text-[11px] text-brand-light/70 uppercase font-black tracking-widest mb-3">
-                  1. Seleccionar por Categoría / Género:
+                  1. Seleccionar por Género:
                 </span>
                 
-                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl">
                   {/* Para Él (Varón) */}
                   <button
                     type="button"
                     onClick={() => setSelectedGender(selectedGender === "HOMBRE" ? "ALL" : "HOMBRE")}
-                    className={`p-3.5 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between ${
+                    className={`p-4 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between ${
                       selectedGender === "HOMBRE"
                         ? "bg-[#C5A059] text-white border-[#C5A059] shadow-md shadow-[#C5A059]/25 scale-[1.02]"
                         : "bg-[#FAF8F5] text-[#2C2C2C] hover:bg-white hover:border-[#C5A059]/60 border-black/10"
                     }`}
                   >
-                    <div className="flex items-center gap-2.5">
-                      <span className="text-xl">👨</span>
+                    <div className="flex items-center gap-3">
+                      <span className="text-2xl">👨</span>
                       <div>
-                        <p className="text-xs font-extrabold uppercase tracking-wider">Para Él</p>
-                        <p className={`text-[10px] ${selectedGender === "HOMBRE" ? "text-white/80" : "text-black/50"}`}>
-                          Caballero
+                        <p className="text-sm font-extrabold uppercase tracking-wider">Para Él</p>
+                        <p className={`text-xs ${selectedGender === "HOMBRE" ? "text-white/80" : "text-black/50"}`}>
+                          Perfumes para Caballero
                         </p>
                       </div>
                     </div>
-                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                    <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${
                       selectedGender === "HOMBRE" ? "bg-black/20 text-white" : "bg-black/5 text-[#2C2C2C]/70"
                     }`}>
                       {genderCounts.hombre}
@@ -269,77 +268,25 @@ export default function NovedadesSection() {
                   <button
                     type="button"
                     onClick={() => setSelectedGender(selectedGender === "MUJER" ? "ALL" : "MUJER")}
-                    className={`p-3.5 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between ${
+                    className={`p-4 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between ${
                       selectedGender === "MUJER"
                         ? "bg-[#C5A059] text-white border-[#C5A059] shadow-md shadow-[#C5A059]/25 scale-[1.02]"
                         : "bg-[#FAF8F5] text-[#2C2C2C] hover:bg-white hover:border-[#C5A059]/60 border-black/10"
                     }`}
                   >
-                    <div className="flex items-center gap-2.5">
-                      <span className="text-xl">👩</span>
+                    <div className="flex items-center gap-3">
+                      <span className="text-2xl">👩</span>
                       <div>
-                        <p className="text-xs font-extrabold uppercase tracking-wider">Para Ella</p>
-                        <p className={`text-[10px] ${selectedGender === "MUJER" ? "text-white/80" : "text-black/50"}`}>
-                          Dama
+                        <p className="text-sm font-extrabold uppercase tracking-wider">Para Ella</p>
+                        <p className={`text-xs ${selectedGender === "MUJER" ? "text-white/80" : "text-black/50"}`}>
+                          Perfumes para Dama
                         </p>
                       </div>
                     </div>
-                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
+                    <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${
                       selectedGender === "MUJER" ? "bg-black/20 text-white" : "bg-black/5 text-[#2C2C2C]/70"
                     }`}>
                       {genderCounts.mujer}
-                    </span>
-                  </button>
-
-                  {/* Unisex */}
-                  <button
-                    type="button"
-                    onClick={() => setSelectedGender(selectedGender === "UNISEX" ? "ALL" : "UNISEX")}
-                    className={`p-3.5 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between ${
-                      selectedGender === "UNISEX"
-                        ? "bg-[#C5A059] text-white border-[#C5A059] shadow-md shadow-[#C5A059]/25 scale-[1.02]"
-                        : "bg-[#FAF8F5] text-[#2C2C2C] hover:bg-white hover:border-[#C5A059]/60 border-black/10"
-                    }`}
-                  >
-                    <div className="flex items-center gap-2.5">
-                      <span className="text-xl">✨</span>
-                      <div>
-                        <p className="text-xs font-extrabold uppercase tracking-wider">Unisex</p>
-                        <p className={`text-[10px] ${selectedGender === "UNISEX" ? "text-white/80" : "text-black/50"}`}>
-                          Compartir
-                        </p>
-                      </div>
-                    </div>
-                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                      selectedGender === "UNISEX" ? "bg-black/20 text-white" : "bg-black/5 text-[#2C2C2C]/70"
-                    }`}>
-                      {genderCounts.unisex}
-                    </span>
-                  </button>
-
-                  {/* Ver Todos */}
-                  <button
-                    type="button"
-                    onClick={() => setSelectedGender("ALL")}
-                    className={`p-3.5 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between ${
-                      selectedGender === "ALL"
-                        ? "bg-[#2C2C2C] text-white border-[#2C2C2C] shadow-md scale-[1.02]"
-                        : "bg-[#FAF8F5] text-[#2C2C2C] hover:bg-white hover:border-[#C5A059]/60 border-black/10"
-                    }`}
-                  >
-                    <div className="flex items-center gap-2.5">
-                      <span className="text-xl">👑</span>
-                      <div>
-                        <p className="text-xs font-extrabold uppercase tracking-wider">Todos</p>
-                        <p className={`text-[10px] ${selectedGender === "ALL" ? "text-white/80" : "text-black/50"}`}>
-                          Colección
-                        </p>
-                      </div>
-                    </div>
-                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                      selectedGender === "ALL" ? "bg-white/20 text-white" : "bg-black/5 text-[#2C2C2C]/70"
-                    }`}>
-                      {genderCounts.total}
                     </span>
                   </button>
                 </div>

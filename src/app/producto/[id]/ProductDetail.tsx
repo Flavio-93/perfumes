@@ -18,9 +18,10 @@ export default function ProductDetail({ id }: { id: string }) {
   const [selectedImage, setSelectedImage] = useState(perfume?.image || "");
   const [selectedSize, setSelectedSize] = useState<"completo" | "muestra">("completo");
   const { addToCart, updateQuantity, getItemQuantity } = useCart();
-  const { getStock, isOutOfStock: checkOutOfStock } = useStock();
+  const { getStock, getPrice, isOutOfStock: checkOutOfStock } = useStock();
 
   const currentStock = perfume ? getStock(perfume.id) : 0;
+  const currentPrice = perfume ? getPrice(perfume.id, perfume.price) : "S/. 0.00";
   const isOutOfStock = perfume ? checkOutOfStock(perfume.id) : false;
 
   const currentFormat: ProductFormat = selectedSize === "completo" ? "frasco" : "3ml";
@@ -34,7 +35,7 @@ export default function ProductDetail({ id }: { id: string }) {
         name: perfume.name,
         brand: perfume.brand,
         image: selectedSize === "completo" ? perfume.image : (sample?.image || perfume.image),
-        price: selectedSize === "completo" ? perfume.price : "S/. 15.00",
+        price: selectedSize === "completo" ? currentPrice : "S/. 15.00",
       },
       currentFormat
     );
@@ -165,7 +166,7 @@ export default function ProductDetail({ id }: { id: string }) {
             </div>
 
             <p className="text-2xl font-bold text-brand-light mb-8 flex items-end gap-2">
-              {perfume.price}
+              {currentPrice}
               <span className="text-[10px] text-brand-light/50 font-normal uppercase tracking-widest mb-1">IVA incluido</span>
             </p>
             
@@ -183,7 +184,7 @@ export default function ProductDetail({ id }: { id: string }) {
                   <span className="absolute -top-2.5 right-4 bg-brand-light text-brand-dark text-[9px] font-bold px-2 py-0.5 rounded-full tracking-wider">SELECCIONADO</span>
                   <span className="font-bold text-sm uppercase">100ML</span>
                   <span className="text-xs text-brand-light/60">Frasco completo original</span>
-                  <span className="font-bold text-sm mt-1">{perfume.price}</span>
+                  <span className="font-bold text-sm mt-1">{currentPrice}</span>
                 </button>
               </div>
             </div>
