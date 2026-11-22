@@ -13,6 +13,7 @@ export interface PerfumeItem {
   gallery?: string[];
   tag?: string;
   description?: string;
+  stock?: number;
 }
 
 interface PerfumeCardProps {
@@ -21,6 +22,7 @@ interface PerfumeCardProps {
 
 export default function PerfumeCard({ perfume }: PerfumeCardProps) {
   const { addToCart, updateQuantity, getItemQuantity } = useCart();
+  const isOutOfStock = typeof perfume.stock === "number" && perfume.stock <= 0;
 
   // Full bottle quantity in cart
   const quantity = getItemQuantity(perfume.id, "frasco");
@@ -47,9 +49,15 @@ export default function PerfumeCard({ perfume }: PerfumeCardProps) {
   };
 
   return (
-    <div className="bg-brand-surface rounded-lg overflow-hidden flex flex-col group border border-white/10 hover:border-brand-gold/50 transition-all duration-300 relative hover:shadow-xl hover:shadow-brand-gold/5">
+    <div className={`bg-brand-surface rounded-lg overflow-hidden flex flex-col group border transition-all duration-300 relative hover:shadow-xl hover:shadow-brand-gold/5 ${
+      isOutOfStock ? "border-red-500/20 opacity-80" : "border-white/10 hover:border-brand-gold/50"
+    }`}>
       {/* Badge Top Left */}
-      {perfume.tag && (
+      {isOutOfStock ? (
+        <div className="absolute top-2 left-2 sm:top-3 sm:left-3 text-[8px] sm:text-[9px] font-extrabold px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded shadow-md z-10 tracking-wider uppercase bg-red-600/90 text-white flex items-center gap-1">
+          <span>Agotado</span>
+        </div>
+      ) : perfume.tag ? (
         <div
           className={`absolute top-2 left-2 sm:top-3 sm:left-3 text-[8px] sm:text-[9px] font-extrabold px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded shadow-md z-10 tracking-wider uppercase flex items-center gap-1 ${
             perfume.tag === "NOVEDAD" ? "bg-[#C48B57] text-white" : "bg-brand-gold text-brand-dark"
@@ -58,7 +66,7 @@ export default function PerfumeCard({ perfume }: PerfumeCardProps) {
           <Sparkles size={9} className="sm:w-[10px] sm:h-[10px]" />
           <span>{perfume.tag}</span>
         </div>
-      )}
+      ) : null}
 
       {/* Frasco Completo Badge Top Right */}
       <div className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-brand-dark/80 backdrop-blur-sm text-brand-light text-[7px] sm:text-[8px] font-bold px-1.5 sm:px-2 py-0.5 rounded border border-white/10 z-10 tracking-widest uppercase">
@@ -99,13 +107,28 @@ export default function PerfumeCard({ perfume }: PerfumeCardProps) {
           </h3>
         </Link>
 
-        {/* Presentation info */}
-        <div className="mb-1.5 sm:mb-3">
+        {/* Presentation & Stock info */}
+        <div className="mb-1.5 sm:mb-3 flex flex-col gap-1">
           <div className="py-1 sm:py-1.5 px-1.5 sm:px-3 bg-brand-dark rounded border border-white/10 flex items-center justify-center">
             <span className="text-[9px] sm:text-[11px] font-extrabold uppercase tracking-wider text-brand-gold truncate">
               Frasco 100 ML
             </span>
           </div>
+          {typeof perfume.stock === "number" && (
+            <div className="flex items-center justify-center">
+              {perfume.stock > 0 ? (
+                <span className="text-[8px] sm:text-[10px] font-semibold text-emerald-400/90 flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block animate-pulse"></span>
+                  En Stock ({perfume.stock} disponibles)
+                </span>
+              ) : (
+                <span className="text-[8px] sm:text-[10px] font-semibold text-red-400/90 flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-red-400 inline-block"></span>
+                  Agotado
+                </span>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Price Display */}
@@ -116,9 +139,17 @@ export default function PerfumeCard({ perfume }: PerfumeCardProps) {
           <span className="text-xs sm:text-sm font-black text-brand-gold">{perfume.price}</span>
         </div>
 
-        {/* Action Button: Add to Cart OR Quantity Controls */}
+        {/* Action Button: Add to Cart OR Quantity Controls OR Agotado */}
         <div className="mt-0.5 sm:mt-1">
-          {quantity === 0 ? (
+          {isOutOfStock ? (
+            <button
+              type="button"
+              disabled
+              className="w-full bg-white/5 border border-white/10 text-brand-light/40 font-bold text-[10px] sm:text-xs uppercase tracking-normal sm:tracking-widest py-2 sm:py-3 px-1 sm:px-3 rounded cursor-not-allowed flex items-center justify-center gap-1"
+            >
+              <span>Agotado</span>
+            </button>
+          ) : quantity === 0 ? (
             <button
               type="button"
               onClick={handleAdd}

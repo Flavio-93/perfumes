@@ -17,6 +17,7 @@ export default function ProductDetail({ id }: { id: string }) {
   const [selectedImage, setSelectedImage] = useState(perfume?.image || "");
   const [selectedSize, setSelectedSize] = useState<"completo" | "muestra">("completo");
   const { addToCart, updateQuantity, getItemQuantity } = useCart();
+  const isOutOfStock = typeof (perfume as any)?.stock === "number" && (perfume as any).stock <= 0;
 
   const currentFormat: ProductFormat = selectedSize === "completo" ? "frasco" : "3ml";
   const quantity = perfume ? getItemQuantity(perfume.id, currentFormat) : 0;
@@ -144,6 +145,23 @@ export default function ProductDetail({ id }: { id: string }) {
               <span className="text-brand-light/60 text-xs">(8)</span>
             </div>
             
+            {/* Estado de Stock */}
+            {typeof (perfume as any)?.stock === "number" && (
+              <div className="mb-4">
+                {(perfume as any).stock > 0 ? (
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    En Stock ({(perfume as any).stock} disponibles)
+                  </span>
+                ) : (
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-red-500/10 text-red-400 border border-red-500/20">
+                    <span className="w-2 h-2 rounded-full bg-red-400"></span>
+                    Agotado
+                  </span>
+                )}
+              </div>
+            )}
+
             <p className="text-2xl font-bold text-brand-light mb-8 flex items-end gap-2">
               {perfume.price}
               <span className="text-[10px] text-brand-light/50 font-normal uppercase tracking-widest mb-1">IVA incluido</span>
@@ -170,7 +188,14 @@ export default function ProductDetail({ id }: { id: string }) {
 
             {/* Botón Añadir al Carrito / Contador */}
             <div className="mb-8">
-              {quantity === 0 ? (
+              {isOutOfStock ? (
+                <button
+                  disabled
+                  className="w-full bg-white/5 border border-white/10 text-brand-light/40 text-sm font-bold uppercase tracking-[0.2em] py-4 rounded cursor-not-allowed flex items-center justify-center gap-3"
+                >
+                  <span>Agotado</span>
+                </button>
+              ) : quantity === 0 ? (
                 <button
                   onClick={handleAddToCart}
                   className="w-full bg-brand-gold hover:bg-[#b07b48] text-brand-dark text-sm font-black uppercase tracking-[0.2em] py-4 rounded transition-all shadow-lg hover:shadow-brand-gold/20 flex items-center justify-center gap-3 cursor-pointer active:scale-[0.99]"

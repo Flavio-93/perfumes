@@ -19,7 +19,8 @@ export const perfumes = [
       "/fotos_perfumes/9am_afnan_eau_de_parfum_para_mujer_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de 9 AM por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de 9 AM por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 8
   },
   {
     "id": "2",
@@ -41,7 +42,8 @@ export const perfumes = [
       "/fotos_perfumes/9pm_afnan_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de 9 PM por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de 9 PM por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 11
   },
   {
     "id": "3",
@@ -63,7 +65,8 @@ export const perfumes = [
       "/fotos_perfumes/yara_lattafa_eau_de_parfum_para_mujer_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de Yara por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Yara por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 5
   },
   {
     "id": "4",
@@ -85,7 +88,8 @@ export const perfumes = [
       "/fotos_perfumes/amber_oud_gold_edition_al_haramain_eau_de_parfum_unisex_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de Amber Oud Gold Edition por AL HARAMAIN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Amber Oud Gold Edition por AL HARAMAIN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 2
   },
   {
     "id": "5",
@@ -107,7 +111,8 @@ export const perfumes = [
       "/fotos_perfumes/yum_yum_armaf_eau_de_parfum_6.webp"
     ],
     "tag": "TOP VENTAS",
-    "description": "Descubre la esencia exclusiva de Yum Yum por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Yum Yum por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "6",
@@ -127,7 +132,8 @@ export const perfumes = [
       "/fotos_perfumes/khamrah_dukhan_lattafa_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Khamrah Dukhan por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Khamrah Dukhan por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "7",
@@ -149,7 +155,8 @@ export const perfumes = [
       "/fotos_perfumes/khamrah_qahwa_lattafa_eau_de_parfum_unisex_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Khamrah Qahwa por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Khamrah Qahwa por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "8",
@@ -171,7 +178,8 @@ export const perfumes = [
       "/fotos_perfumes/nitro_red_dumond_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Nitro Red por DUMONT. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Nitro Red por DUMONT. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "9",
@@ -191,7 +199,8 @@ export const perfumes = [
       "/fotos_perfumes/nautica_voyage_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Nautica Voyage por NAUTICA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Nautica Voyage por NAUTICA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 6
   },
   {
     "id": "10",
@@ -212,7 +221,8 @@ export const perfumes = [
       "/fotos_perfumes/asad_elixir_lattafa_eau_de_parfum_para_hombre_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Asad Elixir por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Asad Elixir por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 7
   },
   {
     "id": "11",
@@ -231,7 +241,8 @@ export const perfumes = [
       "/fotos_perfumes/eclaire_spray_lattafa_eau_de_parfum_para_mujer_3.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Eclaire por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Eclaire por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "12",
@@ -251,7 +262,8 @@ export const perfumes = [
       "/fotos_perfumes/vulcan_feu_french_avenue_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Vulcan Feu por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Vulcan Feu por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 6
   },
   {
     "id": "13",
@@ -271,7 +283,8 @@ export const perfumes = [
       "/fotos_perfumes/hawas_fire_rasasi_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Hawas Fire por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hawas Fire por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "14",
@@ -288,7 +301,8 @@ export const perfumes = [
       "/fotos_perfumes/hawas_atlantis_rasasi_1.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Hawas Atlantis por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hawas Atlantis por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "15",
@@ -310,7 +324,8 @@ export const perfumes = [
       "/fotos_perfumes/khamrah_lattafa_eau_de_parfum_unisex_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Khamrah por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Khamrah por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "16",
@@ -331,7 +346,8 @@ export const perfumes = [
       "/fotos_perfumes/atheeri_lattafa_eau_de_parfum_para_mujer_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Atheeri por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Atheeri por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "17",
@@ -351,7 +367,8 @@ export const perfumes = [
       "/fotos_perfumes/rome_imagine_bharara_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Rome Imagine por BHARARA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Rome Imagine por BHARARA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "18",
@@ -371,7 +388,8 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_aqua_edition_armaf_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Aqua Edition por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Aqua Edition por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "19",
@@ -391,7 +409,8 @@ export const perfumes = [
       "/fotos_perfumes/yara_elixir_lattafa_eau_de_parfum_para_mujer_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Yara Elixir por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Yara Elixir por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "20",
@@ -411,7 +430,8 @@ export const perfumes = [
       "/fotos_perfumes/eclaire_banoffi_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Eclaire Banoffi por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Eclaire Banoffi por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "21",
@@ -431,7 +451,8 @@ export const perfumes = [
       "/fotos_perfumes/island_bliss_armaf_eau_de_parfum_para_mujer_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Island Bliss por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Island Bliss por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 2
   },
   {
     "id": "22",
@@ -453,7 +474,8 @@ export const perfumes = [
       "/fotos_perfumes/island_breeze_armaf_eau_de_parfum_para_mujer_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Island Breeze por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Island Breeze por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "23",
@@ -474,7 +496,8 @@ export const perfumes = [
       "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Art of Universe (Set) por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Art of Universe (Set) por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "24",
@@ -494,7 +517,8 @@ export const perfumes = [
       "/fotos_perfumes/nebras_lattafa_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Nebras por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Nebras por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "25",
@@ -516,7 +540,8 @@ export const perfumes = [
       "/fotos_perfumes/hawas_diva_rasasi_eau_de_parfum_6.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Hawas Diva por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hawas Diva por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "26",
@@ -538,7 +563,8 @@ export const perfumes = [
       "/fotos_perfumes/asad_bourbon_lattafa_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Asad Bourbon por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Asad Bourbon por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 2
   },
   {
     "id": "27",
@@ -556,7 +582,8 @@ export const perfumes = [
       "/fotos_perfumes/club_de_nuit_maleka_armaf_eau_de_parfum_2.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Club de Nuit Maleka por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Club de Nuit Maleka por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "28",
@@ -576,7 +603,8 @@ export const perfumes = [
       "/fotos_perfumes/hawas_ice_rasasi_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Hawas Ice por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hawas Ice por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 7
   },
   {
     "id": "29",
@@ -596,7 +624,8 @@ export const perfumes = [
       "/fotos_perfumes/hawas_tropical_rasasi_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Hawas Tropical por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hawas Tropical por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 1
   },
   {
     "id": "30",
@@ -618,7 +647,8 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_mandarin_sky_elixir_armaf_eau_de_parfum_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Mandarin Sky Elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Mandarin Sky Elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 10
   },
   {
     "id": "31",
@@ -640,7 +670,8 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_go_mango_armaf_eau_de_parfum_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Go Mango por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Go Mango por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 11
   },
   {
     "id": "32",
@@ -662,7 +693,8 @@ export const perfumes = [
       "/fotos_perfumes/liquid_brun_french_avenue_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Liquid Brun por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Liquid Brun por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "33",
@@ -682,7 +714,8 @@ export const perfumes = [
       "/fotos_perfumes/veneno_french_avenue_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Veneno Black por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Veneno Black por FRENCH AVENUE. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "34",
@@ -702,7 +735,8 @@ export const perfumes = [
       "/fotos_perfumes/her_confession_lattafa_eau_de_parfum_para_mujer_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Her Confession por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Her Confession por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "35",
@@ -724,7 +758,8 @@ export const perfumes = [
       "/fotos_perfumes/club_de_nuit_woman_armaf_eau_de_parfum_para_mujer_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Club de Nuit Woman por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Club de Nuit Woman por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "36",
@@ -746,7 +781,8 @@ export const perfumes = [
       "/fotos_perfumes/amber_oud_aqua_dubai_al_haramain_extrait_de_parfum_unisex_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Amber Oud Aqua Dubai por AL HARAMAIN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Amber Oud Aqua Dubai por AL HARAMAIN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "37",
@@ -766,7 +802,8 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_candee_armaf_eau_de_parfum_para_mujer_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Odyssey Candee por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Candee por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "38",
@@ -788,7 +825,8 @@ export const perfumes = [
       "/fotos_perfumes/hawas_malibu_rasasi_eau_de_parfum_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Hawas Malibu por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hawas Malibu por RASASI. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 2
   },
   {
     "id": "39",
@@ -808,7 +846,8 @@ export const perfumes = [
       "/fotos_perfumes/badee_al_oud_sublime_lattafa_eau_de_parfum_unisex_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Bade'e Al Oud Sublime por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Bade'e Al Oud Sublime por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 2
   },
   {
     "id": "40",
@@ -830,7 +869,8 @@ export const perfumes = [
       "/fotos_perfumes/hayaati_lattafa_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Hayaati por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Hayaati por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 6
   },
   {
     "id": "41",
@@ -850,7 +890,8 @@ export const perfumes = [
       "/fotos_perfumes/the_kingdom_lattafa_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de The Kingdom por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de The Kingdom por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "42",
@@ -870,7 +911,8 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_mega_armaf_eau_de_parfum_para_hombre_4.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Mega por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Mega por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "43",
@@ -891,7 +933,8 @@ export const perfumes = [
       "/fotos_perfumes/angham_lattafa_eau_de_parfum_unisex_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Angham por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Angham por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 2
   },
   {
     "id": "44",
@@ -910,7 +953,8 @@ export const perfumes = [
       "/fotos_perfumes/Al_Shuyukh_Silver_eau_de_parfum_unisex_3.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Ishq Al Shuyukh Silver por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Ishq Al Shuyukh Silver por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "45",
@@ -929,7 +973,8 @@ export const perfumes = [
       "/fotos_perfumes/your_touch_intense_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Your Touch Intense por MAISON ALHAMBRA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Your Touch Intense por MAISON ALHAMBRA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "46",
@@ -951,7 +996,8 @@ export const perfumes = [
       "/fotos_perfumes/club_de_nuit_urban_man_elixir_armaf_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Club de Nuit Urban Man Elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Club de Nuit Urban Man Elixir por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 1
   },
   {
     "id": "47",
@@ -972,7 +1018,8 @@ export const perfumes = [
       "/fotos_perfumes/9pm_night_out_afnan_extrait_de_parfum_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de 9 PM Night Out por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de 9 PM Night Out por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "48",
@@ -994,7 +1041,8 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_mandarin_sky_armaf_eau_de_parfum_para_hombre_6.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Mandarin Sky por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Mandarin Sky por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "49",
@@ -1012,7 +1060,8 @@ export const perfumes = [
       "/fotos_perfumes/yara_spray_lattafa_eau_de_parfum_para_mujer_2.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Dúo Yara Pink por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Dúo Yara Pink por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 4
   },
   {
     "id": "50",
@@ -1033,7 +1082,8 @@ export const perfumes = [
       "/fotos_perfumes/9am_dive_afnan_eau_de_parfum_para_hombre_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de 9 AM Dive por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de 9 AM Dive por AFNAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 9
   },
   {
     "id": "51",
@@ -1050,7 +1100,8 @@ export const perfumes = [
       "/fotos_perfumes/odyssey_homme_white_edition_armaf_eau_de_parfum_para_hombre_2.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Odyssey Homme White por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Odyssey Homme White por ARMAF. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 0
   },
   {
     "id": "52",
@@ -1071,7 +1122,8 @@ export const perfumes = [
       "/fotos_perfumes/art_of_universe_lattafa_eau_de_parfum_unisex_5.webp"
     ],
     "tag": "",
-    "description": "Descubre la esencia exclusiva de Art of Universe por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Art of Universe por LATTAFA. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   },
   {
     "id": "53",
@@ -1090,6 +1142,7 @@ export const perfumes = [
       "/fotos_perfumes/rayhaan_lion_eau_de_parfum_para_hombre_3.webp"
     ],
     "tag": "NOVEDAD",
-    "description": "Descubre la esencia exclusiva de Rayhaan Lion por RAYHAAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium."
+    "description": "Descubre la esencia exclusiva de Rayhaan Lion por RAYHAAN. Una fragancia diseñada para dejar una huella inolvidable, con una estela duradera y notas premium.",
+    "stock": 3
   }
 ];
