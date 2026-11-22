@@ -32,8 +32,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-brand-light/60">
               <li className="flex items-center gap-2">
                  <span className="text-brand-gold">WhatsApp:</span> 
-                 <a href={`https://wa.me/${businessData.whatsappNumber}`} className="hover:text-brand-light transition-colors">
-                   +51 {businessData.whatsappNumber}
+                 <a href={`https://wa.me/${businessData.whatsappNumber}`} target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold font-semibold transition-colors">
+                   {businessData.whatsappDisplayNumber || "+51 946 417 177"}
                  </a>
               </li>
               <li className="flex items-center gap-2">

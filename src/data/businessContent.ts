@@ -2,7 +2,8 @@ export const businessData = {
   name: "ISF Fragance Oud & Beauty",
   tagline: "Descubre la exclusividad y alta fijación de los mejores perfumes árabes 100% originales, recomendados por nuestros clientes.",
   email: "isf.fraganceoud@gmail.com",
-  whatsappNumber: "946417177",
+  whatsappNumber: "51946417177",
+  whatsappDisplayNumber: "+51 946 417 177",
   whatsappDefaultMessage: "Hola ISF Fragance Oud & Beauty, vi su web y estoy interesado en sus productos.",
   services: [
     {
