@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import { Sparkles, ArrowRight } from "lucide-react";
+import { useSearch } from "@/context/SearchContext";
 
 const brands = [
   {
@@ -53,6 +55,16 @@ const brands = [
 ];
 
 export default function BrandsSection() {
+  const { setSelectedBrand } = useSearch();
+
+  const handleBrandSelect = (brandName: string) => {
+    setSelectedBrand(brandName.toUpperCase());
+    const el = document.getElementById("catalogo");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section id="marcas" className="py-24 bg-brand-surface border-t border-b border-white/5 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(#c48b57_1px,transparent_1px)] [background-size:32px_32px] opacity-5"></div>
@@ -103,12 +115,13 @@ export default function BrandsSection() {
                 {brand.description}
               </p>
 
-              <Link 
-                href="/#catalogo"
-                className="text-[10px] font-bold text-brand-gold uppercase tracking-widest flex items-center gap-1 group-hover:translate-x-1 transition-transform"
+              <button 
+                type="button"
+                onClick={() => handleBrandSelect(brand.name)}
+                className="text-[10px] font-bold text-brand-gold uppercase tracking-widest flex items-center gap-1 group-hover:translate-x-1 transition-transform cursor-pointer text-left"
               >
-                Explorar catálogo &rarr;
-              </Link>
+                Ver perfumes de {brand.name} &rarr;
+              </button>
             </div>
           ))}
         </div>

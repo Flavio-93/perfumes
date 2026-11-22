@@ -3,10 +3,24 @@ import { useState } from "react";
 import Link from "next/link";
 import { Search, User, Heart, ShoppingBag, Menu, X, Star } from "lucide-react";
 import { useCart } from "@/context/CartContext";
+import { useSearch } from "@/context/SearchContext";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { totalCount, openCart } = useCart();
+  const { openSearch } = useSearch();
+
+  const handleSearchClick = () => {
+    // Scroll smoothly to catalog and focus search
+    const el = document.getElementById("catalogo");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        const input = document.getElementById("catalog-search-input");
+        if (input) input.focus();
+      }, 400);
+    }
+  };
 
   return (
     <header className="fixed w-full z-50 top-0 left-0">
@@ -50,14 +64,22 @@ export default function Navbar() {
           </div>
 
           {/* Right: Icons */}
-          <div className="flex-1 flex items-center justify-end gap-4 lg:gap-6 text-brand-light">
-            <button className="hover:text-brand-gold transition-colors hidden sm:block" aria-label="Buscar">
-              <Search size={22} strokeWidth={1.5} />
+          <div className="flex-1 flex items-center justify-end gap-3 sm:gap-4 lg:gap-6 text-brand-light">
+            <button 
+              onClick={handleSearchClick}
+              className="hover:text-brand-gold transition-colors p-1.5 flex items-center gap-1.5 cursor-pointer rounded-full hover:bg-white/5" 
+              aria-label="Buscar perfume o marca"
+              title="Buscar perfume o marca"
+            >
+              <Search size={20} strokeWidth={1.8} className="sm:w-[22px] sm:h-[22px]" />
+              <span className="hidden md:inline text-[11px] font-bold tracking-wider uppercase text-brand-light/70 hover:text-brand-gold">
+                Buscar
+              </span>
             </button>
-            <button className="hover:text-brand-gold transition-colors hidden sm:block" aria-label="Mi Cuenta">
+            <button className="hover:text-brand-gold transition-colors hidden sm:block p-1" aria-label="Mi Cuenta">
               <User size={22} strokeWidth={1.5} />
             </button>
-            <button className="hover:text-brand-gold transition-colors hidden sm:block" aria-label="Favoritos">
+            <button className="hover:text-brand-gold transition-colors hidden sm:block p-1" aria-label="Favoritos">
               <Heart size={22} strokeWidth={1.5} />
             </button>
             <button 

@@ -4,6 +4,7 @@ import "./globals.css";
 import { businessData } from "@/data/businessContent";
 import { CartProvider } from "@/context/CartContext";
 import { StockProvider } from "@/context/StockContext";
+import { SearchProvider } from "@/context/SearchContext";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -44,7 +45,9 @@ export default function RootLayout({
       </head>
       <body>
         <CartProvider>
-          <StockProvider>{children}</StockProvider>
+          <StockProvider>
+            <SearchProvider>{children}</SearchProvider>
+          </StockProvider>
         </CartProvider>
       </body>
     </html>
