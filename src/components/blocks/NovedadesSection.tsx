@@ -25,51 +25,93 @@ export default function NovedadesSection() {
     return ["ALL", ...Array.from(set).sort()];
   }, []);
 
-  // Función helper para determinar el género de cada perfume
-  const getPerfumeGender = (p: typeof perfumes[0]): "HOMBRE" | "MUJER" | "UNISEX" => {
-    const fullText = [
-      p.name,
-      p.type,
-      p.tag,
-      p.description,
-      p.image,
-      ...(p.gallery || []),
-      ...(p.notes || [])
-    ].join(" ").toLowerCase();
+  // Listas curadas de exclusividad de género para el catálogo de ISF Fragrance
+  // Perfumes estrictamente femeninos (no aptos para varón tradicional)
+  const strictlyWomenIds = useMemo(() => new Set([
+    "1",  // 9 AM Pour Femme (mujer)
+    "3",  // Yara Pink
+    "5",  // Yum Yum (floral frutal gourmand femenino)
+    "11", // Dúo Eclaire
+    "16", // Atheeri (floral femenino)
+    "19", // Yara Elixir
+    "20", // Eclaire Banoffi
+    "21", // Island Bliss
+    "22", // Island Breeze
+    "24", // Nebras (vainilla chocolate gourmand)
+    "25", // Hawas Diva
+    "27", // Club de Nuit Maleka
+    "34", // Her Confession
+    "35", // Club de Nuit Woman
+    "37", // Odyssey Candee
+    "43", // Angham (Burberry Goddess dupe)
+    "49"  // Dúo Yara Pink
+  ]), []);
 
-    if (fullText.includes("para hombre") || fullText.includes("hombre")) {
-      return "HOMBRE";
+  // Perfumes estrictamente masculinos (no aptos para dama tradicional)
+  const strictlyMenIds = useMemo(() => new Set([
+    "2",  // 9 PM
+    "6",  // Khamrah Dukhan
+    "8",  // Nitro Red
+    "9",  // Nautica Voyage
+    "10", // Asad Elixir
+    "13", // Hawas Fire
+    "17", // Rome Imagine
+    "18", // Odyssey Aqua Edition
+    "26", // Asad Bourbon
+    "28", // Hawas Ice
+    "29", // Hawas Tropical
+    "32", // Liquid Brun
+    "33", // Veneno Black
+    "40", // Hayaati
+    "41", // The Kingdom
+    "42", // Odyssey Mega
+    "45", // Your Touch Intense
+    "46", // Club de Nuit Urban Man Elixir
+    "48", // Odyssey Mandarin Sky
+    "50", // 9 AM Dive
+    "51", // Odyssey Homme White
+    "53"  // Rayhaan Lion
+  ]), []);
+
+  // Función para determinar si un perfume corresponde a la categoría "Para Él" o "Para Ella"
+  // Al no existir la opción "Unisex", los perfumes orientales versátiles (Khamrah, Amber Oud Gold, etc.)
+  // se muestran tanto en "Para Él" como en "Para Ella" para que el cliente no se pierda ninguna opción.
+  const matchesGenderCategory = (perfumeId: string, category: GenderFilter): boolean => {
+    if (category === "ALL") return true;
+
+    if (category === "HOMBRE") {
+      // Para Él: se muestran todos los perfumes masculinos y los perfumes árabes unisex (excluyendo solo los estrictamente de mujer)
+      return !strictlyWomenIds.has(perfumeId);
     }
-    if (fullText.includes("para mujer") || fullText.includes("mujer") || fullText.includes("dama")) {
-      return "MUJER";
+
+    if (category === "MUJER") {
+      // Para Ella: se muestran todos los perfumes femeninos y los perfumes árabes unisex (excluyendo solo los estrictamente de hombre)
+      return !strictlyMenIds.has(perfumeId);
     }
-    return "UNISEX";
+
+    return true;
   };
 
-  // Conteo de perfumes por género
+  // Conteo exacto de perfumes disponibles en cada categoría
   const genderCounts = useMemo(() => {
     let hombre = 0;
     let mujer = 0;
-    let unisex = 0;
 
     perfumes.forEach((p) => {
-      const g = getPerfumeGender(p);
-      if (g === "HOMBRE") hombre++;
-      else if (g === "MUJER") mujer++;
-      else unisex++;
+      if (!strictlyWomenIds.has(p.id)) hombre++;
+      if (!strictlyMenIds.has(p.id)) mujer++;
     });
 
-    return { hombre, mujer, unisex, total: perfumes.length };
-  }, []);
+    return { hombre, mujer, total: perfumes.length };
+  }, [strictlyWomenIds, strictlyMenIds]);
 
   // Filtrado reactivo por Búsqueda, Género y Marca
   const filteredPerfumes = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
     return perfumes.filter((p) => {
-      // 1. Filtro por Género
-      if (selectedGender !== "ALL") {
-        const g = getPerfumeGender(p);
-        if (g !== selectedGender) return false;
+      // 1. Filtro por Género (Para Él / Para Ella)
+      if (selectedGender !== "ALL" && !matchesGenderCategory(p.id, selectedGender)) {
+        return false;
       }
 
       // 2. Filtro por Marca
