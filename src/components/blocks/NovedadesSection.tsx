@@ -25,83 +25,44 @@ export default function NovedadesSection() {
     return ["ALL", ...Array.from(set).sort()];
   }, []);
 
-  // IDs de perfumes exclusivamente para DAMA / MUJER (17 perfumes)
+  // IDs exactos de los 17 perfumes oficiales para DAMA / MUJER indicados por el usuario
+  // P01: 9 AM
+  // P03: Yara Eau de Parfum Pink
+  // P05: Yum Yum
+  // P11: Eclaire Eau de Parfum
+  // P16: Atheeri
+  // P19: Yara Elixir Eau de Parfum
+  // P20: Set Dúo Eclaire (Banoffi)
+  // P21: Odyssey Island Bliss
+  // P22: Odyssey Island Breeze
+  // P24: Nebras Eau de Parfum
+  // P25: Hawas Diva
+  // P27: Club de Nuit MALEKA
+  // P34: Her Confession Eau de Parfum
+  // P35: Club de Nuit Woman
+  // P37: Odyssey Candee
+  // P43: Angham
+  // P49: Set Dúo Yara Pink
   const strictlyWomenIds = useMemo(() => new Set([
-    "1",  // 9 AM Pour Femme
-    "3",  // Yara Pink
-    "5",  // Yum Yum (floral frutal dulce femenino)
-    "11", // Dúo Eclaire
-    "16", // Atheeri (floral femenino)
-    "19", // Yara Elixir
-    "20", // Eclaire Banoffi
-    "21", // Island Bliss
-    "22", // Island Breeze
-    "24", // Nebras (gourmand vainilla/cacao dulce)
-    "25", // Hawas Diva
-    "27", // Club de Nuit Maleka
-    "34", // Her Confession
-    "35", // Club de Nuit Woman
-    "37", // Odyssey Candee
-    "43", // Angham
-    "49"  // Dúo Yara Pink
+    "1", "3", "5", "11", "16", "19", "20", "21", "22", "24", "25", "27", "34", "35", "37", "43", "49"
   ]), []);
 
-  // IDs de perfumes exclusivamente para CABALLERO / HOMBRE (36 perfumes)
-  const strictlyMenIds = useMemo(() => new Set([
-    "2",  // 9 PM
-    "4",  // Amber Oud Gold Edition
-    "6",  // Khamrah Dukhan
-    "7",  // Khamrah Qahwa
-    "8",  // Nitro Red
-    "9",  // Nautica Voyage
-    "10", // Asad Elixir
-    "12", // Vulcan Feu
-    "13", // Hawas Fire
-    "14", // Hawas Atlantis
-    "15", // Khamrah
-    "17", // Rome Imagine
-    "18", // Odyssey Aqua Edition
-    "23", // Art of Universe (Set)
-    "26", // Asad Bourbon
-    "28", // Hawas Ice
-    "29", // Hawas Tropical
-    "30", // Odyssey Mandarin Sky Elixir
-    "31", // Odyssey Go Mango
-    "32", // Liquid Brun
-    "33", // Veneno Black
-    "36", // Amber Oud Aqua Dubai
-    "38", // Hawas Malibu
-    "39", // Bade'e Al Oud Sublime
-    "40", // Hayaati
-    "41", // The Kingdom
-    "42", // Odyssey Mega
-    "44", // Ishq Al Shuyukh Silver
-    "45", // Your Touch Intense
-    "46", // Club de Nuit Urban Man Elixir
-    "47", // 9 PM Night Out
-    "48", // Odyssey Mandarin Sky
-    "50", // 9 AM Dive
-    "51", // Odyssey Homme White
-    "52", // Art of Universe
-    "53"  // Rayhaan Lion
-  ]), []);
-
-  // Filtro estricto por categoría de género solicitada por el usuario
+  // Filtro exacto: los 17 en "Para Ella" y los restantes 36 en "Para Él"
   const matchesGenderCategory = (perfumeId: string, category: GenderFilter): boolean => {
     if (category === "ALL") return true;
-    if (category === "HOMBRE") return strictlyMenIds.has(perfumeId);
     if (category === "MUJER") return strictlyWomenIds.has(perfumeId);
+    if (category === "HOMBRE") return !strictlyWomenIds.has(perfumeId);
     return true;
   };
 
-  // Conteo exacto de cada género
+  // Conteo exacto de cada género: 17 para ella y 36 para él
   const genderCounts = useMemo(() => {
     return { 
-      hombre: strictlyMenIds.size, 
+      hombre: perfumes.length - strictlyWomenIds.size, 
       mujer: strictlyWomenIds.size, 
       total: perfumes.length 
     };
-  }, [strictlyWomenIds, strictlyMenIds]);
+  }, [strictlyWomenIds]);
 
   // Filtrado reactivo por Búsqueda, Género y Marca
   const filteredPerfumes = useMemo(() => {
